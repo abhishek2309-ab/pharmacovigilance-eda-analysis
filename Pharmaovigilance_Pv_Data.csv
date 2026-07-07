@@ -1,0 +1,1001 @@
+Case_ID,Age,Gender,Country,Drug_Name,Indication,Reaction,Serious,Outcome,Reporter_Type,Weight_kg,Event_Date
+100001,21,Female,Canada,Atorvastatin,Diabetes,Nausea,No,Not Recovered,Physician,77.5,2024-04-24
+100002,21,Male,Canada,Atorvastatin,Hyperlipidemia,Pruritus,Yes,Recovered,Nurse,57.1,2024-02-02
+100003,18,Male,Australia,Ibuprofen,Hypertension,Rash,Yes,Not Recovered,Physician,50.1,2024-10-11
+100004,63,Female,Germany,Aspirin,Fever,Cough,No,Hospitalized,Nurse,49.3,2024-04-09
+100005,64,Male,USA,Aspirin,Fever,Dizziness,No,Death,Pharmacist,92.7,2024-10-27
+100006,53,Female,Japan,Metformin,Hypertension,Fatigue,Yes,Recovered,Physician,78.5,2025-01-24
+100007,86,Male,UK,Omeprazole,Infection,Vomiting,No,Recovering,Pharmacist,82.7,2024-06-24
+100008,47,Male,Japan,Losartan,Hypertension,Nausea,Yes,Hospitalized,Consumer,56.7,2024-02-27
+100009,68,Female,UK,Amoxicillin,Diabetes,Dizziness,No,Recovered,Nurse,94.4,2025-05-26
+100010,64,Male,UK,Insulin,Infection,Nausea,No,Not Recovered,Pharmacist,79.5,2025-02-12
+100011,26,Female,Australia,Levothyroxine,Infection,Fever,No,Recovering,Physician,82.4,2025-03-08
+100012,86,Female,Japan,Paracetamol,Hypertension,Diarrhea,Yes,Recovered,Consumer,98.5,2024-04-27
+100013,82,Male,Germany,Insulin,Hyperlipidemia,Dizziness,Yes,Not Recovered,Physician,77.9,2024-07-01
+100014,20,Male,Japan,Amoxicillin,Diabetes,Headache,Yes,Recovering,Physician,49.7,2025-05-15
+100015,26,Male,UK,Omeprazole,Hyperlipidemia,Rash,No,Not Recovered,Nurse,98.0,2025-05-12
+100016,57,Female,Japan,Omeprazole,Hyperlipidemia,Cough,Yes,Recovered,Consumer,46.2,2024-07-24
+100017,46,Male,USA,Aspirin,Diabetes,Nausea,No,Not Recovered,Physician,73.3,2024-08-23
+100018,80,Male,UK,Levothyroxine,Hyperlipidemia,Cough,Yes,Recovered,Nurse,55.5,2024-10-12
+100019,73,Female,Australia,Losartan,Infection,Headache,No,Death,Physician,48.3,2024-04-09
+100020,31,Male,Canada,Atorvastatin,Hyperlipidemia,Cough,Yes,Recovered,Nurse,58.7,2024-12-13
+100021,74,Male,India,Insulin,Pain,Nausea,No,Not Recovered,Pharmacist,67.4,2024-03-18
+100022,45,Female,India,Metformin,Infection,Headache,No,Recovered,Nurse,60.7,2025-05-07
+100023,37,Male,Germany,Atorvastatin,Pain,Pruritus,No,Recovered,Consumer,48.1,2025-05-13
+100024,82,Male,India,Insulin,Pain,Rash,Yes,Recovered,Pharmacist,67.2,2025-05-03
+100025,23,Male,Australia,Levothyroxine,Hyperlipidemia,Fever,No,Recovered,Consumer,58.1,2024-09-09
+100026,34,Female,Brazil,Ibuprofen,Pain,Headache,No,Death,Physician,49.0,2025-02-09
+100027,82,Female,UK,Ibuprofen,Pain,Dizziness,No,Recovered,Consumer,78.6,2024-08-06
+100028,88,Female,USA,Metformin,Hypertension,Nausea,No,Recovering,Pharmacist,60.0,2024-01-09
+100029,61,Male,Germany,Insulin,Infection,Vomiting,No,Not Recovered,Physician,79.9,2024-08-03
+100030,23,Male,Japan,Metformin,Fever,Vomiting,Yes,Recovered,Nurse,75.8,2024-10-10
+100031,27,Male,India,Ibuprofen,Hyperlipidemia,Fever,Yes,Recovered,Consumer,65.1,2024-04-24
+100032,63,Male,Canada,Paracetamol,Hypertension,Fever,No,Recovered,Pharmacist,95.9,2024-02-10
+100033,38,Male,Australia,Aspirin,Diabetes,Fatigue,No,Recovered,Pharmacist,59.7,2024-08-30
+100034,66,Male,Brazil,Atorvastatin,Diabetes,Cough,No,Not Recovered,Pharmacist,57.3,2024-04-20
+100035,69,Female,Germany,Paracetamol,Hypertension,Fatigue,No,Recovered,Consumer,96.7,2024-07-16
+100036,51,Male,Germany,Aspirin,Pain,Pruritus,No,Recovering,Consumer,69.0,2024-04-28
+100037,32,Female,Canada,Amoxicillin,Pain,Diarrhea,Yes,Hospitalized,Pharmacist,65.0,2025-06-07
+100038,60,Female,USA,Amoxicillin,Hyperlipidemia,Vomiting,No,Recovered,Consumer,75.5,2024-03-12
+100039,71,Female,UK,Levothyroxine,Hyperlipidemia,Vomiting,No,Not Recovered,Consumer,60.8,2024-07-15
+100040,59,Female,Brazil,Omeprazole,Fever,Dizziness,No,Not Recovered,Pharmacist,81.2,2025-03-16
+100041,83,Female,USA,Atorvastatin,Fever,Vomiting,Yes,Recovered,Physician,47.5,2024-10-17
+100042,27,Female,Australia,Levothyroxine,Diabetes,Diarrhea,No,Recovered,Physician,94.1,2025-05-01
+100043,72,Male,UK,Insulin,Infection,Headache,No,Hospitalized,Physician,70.1,2024-04-19
+100044,85,Female,Brazil,Levothyroxine,Fever,Fever,No,Hospitalized,Nurse,94.3,2025-04-20
+100045,75,Female,Canada,Amoxicillin,Hyperlipidemia,Cough,No,Recovered,Physician,84.2,2025-05-01
+100046,52,Female,Japan,Insulin,Pain,Rash,Yes,Recovered,Pharmacist,83.9,2024-08-28
+100047,71,Female,Japan,Insulin,Infection,Diarrhea,Yes,Not Recovered,Nurse,94.8,2024-03-06
+100048,66,Female,India,Ibuprofen,Hypertension,Diarrhea,No,Hospitalized,Nurse,74.6,2024-01-21
+100049,80,Male,Germany,Losartan,Infection,Headache,No,Recovering,Nurse,84.8,2024-08-13
+100050,34,Male,Australia,Levothyroxine,Hyperlipidemia,Headache,Yes,Recovered,Nurse,55.0,2025-04-23
+100051,66,Female,Canada,Omeprazole,Hypertension,Fatigue,No,Recovered,Nurse,58.9,2024-09-23
+100052,78,Male,India,Ibuprofen,Diabetes,Nausea,No,Recovering,Physician,97.2,2024-03-24
+100053,20,Male,Canada,Metformin,Infection,Nausea,No,Recovered,Consumer,87.2,2024-07-23
+100054,32,Male,Germany,Paracetamol,Hyperlipidemia,Headache,No,Recovering,Nurse,66.8,2024-06-20
+100055,27,Male,USA,Amoxicillin,Fever,Pruritus,No,Not Recovered,Physician,64.1,2024-07-22
+100056,65,Male,Japan,Aspirin,Infection,Cough,Yes,Hospitalized,Nurse,83.9,2025-03-14
+100057,40,Female,Brazil,Omeprazole,Infection,Pruritus,No,Not Recovered,Physician,60.3,2025-03-21
+100058,49,Female,Australia,Ibuprofen,Pain,Cough,No,Recovered,Pharmacist,64.5,2025-04-06
+100059,61,Female,Germany,Insulin,Pain,Fever,No,Recovered,Nurse,71.9,2024-09-21
+100060,78,Female,Brazil,Aspirin,Pain,Vomiting,Yes,Recovering,Consumer,81.5,2024-09-03
+100061,78,Female,Australia,Insulin,Hypertension,Fatigue,No,Recovered,Consumer,57.7,2025-01-12
+100062,58,Male,UK,Atorvastatin,Diabetes,Cough,No,Recovering,Consumer,98.9,2024-07-16
+100063,55,Male,Japan,Metformin,Hypertension,Headache,No,Recovered,Physician,98.6,2024-07-17
+100064,34,Female,USA,Aspirin,Hyperlipidemia,Vomiting,No,Recovered,Pharmacist,98.1,2024-10-26
+100065,79,Male,USA,Losartan,Infection,Nausea,No,Recovering,Pharmacist,53.2,2024-09-15
+100066,28,Male,USA,Insulin,Infection,Pruritus,No,Recovering,Nurse,69.8,2024-11-07
+100067,56,Female,Germany,Levothyroxine,Hyperlipidemia,Headache,No,Recovering,Pharmacist,79.4,2025-03-29
+100068,28,Male,Canada,Metformin,Hyperlipidemia,Nausea,Yes,Recovered,Nurse,61.0,2024-09-27
+100069,54,Female,Brazil,Paracetamol,Fever,Dizziness,No,Not Recovered,Pharmacist,68.4,2024-08-25
+100070,37,Female,UK,Paracetamol,Pain,Rash,No,Recovering,Consumer,69.2,2024-08-18
+100071,56,Female,Germany,Insulin,Hyperlipidemia,Cough,No,Recovering,Nurse,85.4,2025-04-24
+100072,21,Male,Canada,Levothyroxine,Hyperlipidemia,Headache,No,Recovering,Consumer,76.7,2024-09-13
+100073,78,Female,Germany,Metformin,Hyperlipidemia,Diarrhea,No,Recovered,Physician,70.9,2024-06-28
+100074,60,Female,USA,Metformin,Hypertension,Diarrhea,No,Recovered,Nurse,89.7,2025-02-22
+100075,76,Male,Japan,Amoxicillin,Hypertension,Nausea,No,Recovered,Physician,81.2,2024-02-07
+100076,70,Male,Canada,Insulin,Hypertension,Pruritus,No,Recovering,Physician,56.2,2025-04-18
+100077,54,Female,Brazil,Paracetamol,Pain,Pruritus,No,Recovering,Consumer,75.3,2024-05-14
+100078,29,Male,USA,Omeprazole,Pain,Rash,No,Recovering,Consumer,67.9,2025-02-21
+100079,78,Male,Brazil,Insulin,Diabetes,Diarrhea,Yes,Recovering,Pharmacist,92.5,2025-05-09
+100080,71,Female,Germany,Aspirin,Hypertension,Vomiting,No,Recovering,Nurse,92.6,2024-10-09
+100081,86,Female,Japan,Ibuprofen,Hyperlipidemia,Fever,No,Hospitalized,Pharmacist,98.9,2025-04-02
+100082,67,Male,Australia,Aspirin,Hypertension,Cough,No,Not Recovered,Nurse,99.4,2024-09-01
+100083,81,Male,UK,Insulin,Hyperlipidemia,Fatigue,No,Not Recovered,Nurse,50.5,2024-06-04
+100084,19,Male,Australia,Metformin,Pain,Cough,No,Recovered,Nurse,80.7,2025-04-12
+100085,86,Female,Japan,Omeprazole,Hyperlipidemia,Headache,No,Recovered,Consumer,99.9,2024-12-02
+100086,73,Male,USA,Omeprazole,Diabetes,Vomiting,No,Recovered,Physician,61.1,2024-04-02
+100087,73,Male,Canada,Insulin,Infection,Pruritus,No,Recovered,Pharmacist,49.3,2025-01-18
+100088,48,Female,UK,Atorvastatin,Infection,Vomiting,No,Recovering,Nurse,94.6,2025-01-26
+100089,27,Female,Japan,Levothyroxine,Hypertension,Diarrhea,No,Recovered,Consumer,56.0,2024-06-10
+100090,79,Male,Canada,Losartan,Hyperlipidemia,Fatigue,No,Death,Consumer,46.2,2025-01-28
+100091,53,Male,India,Levothyroxine,Fever,Cough,No,Hospitalized,Pharmacist,78.4,2025-02-09
+100092,46,Male,Germany,Metformin,Fever,Nausea,No,Recovering,Consumer,88.4,2024-12-26
+100093,64,Male,USA,Amoxicillin,Hypertension,Diarrhea,Yes,Recovered,Consumer,74.2,2024-02-04
+100094,39,Female,Brazil,Amoxicillin,Fever,Fatigue,No,Recovered,Physician,52.7,2024-10-06
+100095,68,Female,USA,Losartan,Pain,Vomiting,No,Recovered,Consumer,77.2,2024-08-19
+100096,31,Male,Brazil,Aspirin,Hyperlipidemia,Fever,No,Recovering,Physician,79.9,2025-01-15
+100097,56,Female,USA,Metformin,Pain,Headache,No,Recovered,Physician,57.9,2025-04-20
+100098,67,Female,Japan,Insulin,Infection,Pruritus,No,Recovered,Nurse,81.0,2024-05-18
+100099,70,Female,India,Ibuprofen,Diabetes,Cough,No,Recovered,Consumer,50.5,2025-05-16
+100100,87,Female,India,Losartan,Hypertension,Dizziness,No,Hospitalized,Nurse,50.0,2025-01-11
+100101,20,Male,Japan,Atorvastatin,Diabetes,Pruritus,Yes,Not Recovered,Pharmacist,77.3,2024-08-05
+100102,60,Male,India,Amoxicillin,Diabetes,Rash,No,Not Recovered,Physician,81.4,2024-08-26
+100103,34,Male,Japan,Atorvastatin,Hyperlipidemia,Fatigue,Yes,Recovered,Pharmacist,85.8,2024-01-27
+100104,32,Male,Brazil,Omeprazole,Hypertension,Fever,No,Recovered,Pharmacist,97.0,2025-06-22
+100105,84,Female,Brazil,Aspirin,Pain,Cough,No,Recovered,Physician,72.0,2024-02-14
+100106,27,Male,Japan,Levothyroxine,Diabetes,Nausea,Yes,Recovering,Consumer,65.9,2025-03-30
+100107,76,Female,USA,Paracetamol,Fever,Fever,No,Recovered,Nurse,93.8,2024-10-28
+100108,61,Female,Australia,Losartan,Fever,Nausea,No,Recovered,Consumer,65.6,2025-02-27
+100109,78,Male,USA,Paracetamol,Pain,Diarrhea,Yes,Recovering,Pharmacist,75.6,2024-06-05
+100110,33,Female,Japan,Losartan,Fever,Headache,No,Recovering,Consumer,50.7,2024-12-03
+100111,45,Male,Brazil,Atorvastatin,Pain,Fatigue,No,Recovered,Consumer,76.6,2025-06-03
+100112,89,Male,Germany,Aspirin,Diabetes,Vomiting,No,Recovered,Consumer,64.3,2025-03-15
+100113,36,Female,USA,Metformin,Fever,Headache,Yes,Recovered,Nurse,68.1,2024-07-04
+100114,38,Female,Germany,Ibuprofen,Hyperlipidemia,Pruritus,Yes,Recovered,Pharmacist,86.5,2024-12-15
+100115,28,Female,Brazil,Losartan,Infection,Pruritus,No,Recovered,Physician,64.0,2024-02-20
+100116,54,Female,Germany,Aspirin,Diabetes,Diarrhea,No,Recovered,Pharmacist,61.6,2024-04-23
+100117,35,Female,Germany,Ibuprofen,Pain,Headache,No,Recovered,Pharmacist,65.9,2024-08-04
+100118,82,Female,USA,Losartan,Fever,Headache,No,Recovered,Physician,92.4,2024-08-23
+100119,69,Female,Germany,Paracetamol,Infection,Headache,No,Recovered,Nurse,90.8,2025-03-15
+100120,29,Female,USA,Atorvastatin,Infection,Pruritus,No,Recovered,Consumer,86.0,2025-01-05
+100121,60,Male,USA,Insulin,Fever,Nausea,No,Recovered,Consumer,64.3,2024-08-14
+100122,48,Male,UK,Amoxicillin,Diabetes,Rash,No,Not Recovered,Physician,54.7,2024-05-31
+100123,77,Female,Japan,Ibuprofen,Diabetes,Cough,Yes,Recovered,Consumer,88.8,2025-05-20
+100124,63,Male,Germany,Omeprazole,Infection,Headache,Yes,Not Recovered,Physician,80.5,2024-02-27
+100125,82,Female,Brazil,Levothyroxine,Hyperlipidemia,Headache,No,Not Recovered,Pharmacist,62.7,2024-04-02
+100126,82,Male,India,Omeprazole,Pain,Fatigue,No,Recovered,Pharmacist,47.2,2025-05-02
+100127,74,Male,Japan,Ibuprofen,Hypertension,Diarrhea,No,Recovered,Physician,88.4,2025-03-24
+100128,26,Female,USA,Insulin,Fever,Diarrhea,No,Recovering,Pharmacist,63.3,2024-12-08
+100129,62,Female,Australia,Metformin,Hyperlipidemia,Nausea,No,Recovered,Consumer,89.7,2024-05-24
+100130,29,Female,Japan,Aspirin,Hypertension,Vomiting,Yes,Recovered,Nurse,55.6,2025-06-23
+100131,37,Male,Germany,Paracetamol,Hyperlipidemia,Fever,No,Not Recovered,Physician,81.4,2024-05-20
+100132,66,Male,UK,Metformin,Fever,Pruritus,No,Recovered,Nurse,47.4,2024-05-14
+100133,48,Female,Germany,Omeprazole,Diabetes,Fever,Yes,Hospitalized,Nurse,94.7,2025-01-08
+100134,65,Female,Brazil,Amoxicillin,Infection,Fever,No,Hospitalized,Pharmacist,89.1,2024-07-17
+100135,50,Male,Brazil,Ibuprofen,Hyperlipidemia,Nausea,No,Recovered,Physician,60.7,2024-05-21
+100136,52,Female,UK,Losartan,Pain,Dizziness,No,Not Recovered,Physician,67.8,2024-06-13
+100137,82,Female,Canada,Losartan,Pain,Fatigue,Yes,Recovered,Physician,91.2,2025-02-09
+100138,36,Male,India,Amoxicillin,Infection,Rash,No,Recovered,Physician,94.8,2024-12-09
+100139,50,Male,UK,Insulin,Fever,Pruritus,No,Recovered,Consumer,58.1,2024-01-20
+100140,24,Male,Australia,Levothyroxine,Infection,Nausea,Yes,Hospitalized,Physician,79.8,2024-05-04
+100141,36,Female,Australia,Aspirin,Hyperlipidemia,Fatigue,Yes,Recovered,Physician,73.8,2024-09-04
+100142,26,Male,Australia,Omeprazole,Pain,Diarrhea,No,Recovered,Physician,64.6,2025-01-04
+100143,62,Male,USA,Levothyroxine,Fever,Fatigue,Yes,Recovered,Consumer,89.7,2024-03-10
+100144,77,Female,UK,Metformin,Pain,Cough,Yes,Recovered,Pharmacist,93.7,2024-06-28
+100145,57,Female,Brazil,Amoxicillin,Pain,Dizziness,No,Not Recovered,Physician,92.6,2024-11-19
+100146,52,Male,Japan,Losartan,Infection,Cough,No,Recovered,Pharmacist,72.3,2024-12-05
+100147,65,Female,USA,Losartan,Pain,Diarrhea,No,Not Recovered,Consumer,62.7,2025-05-24
+100148,59,Female,Germany,Omeprazole,Hyperlipidemia,Diarrhea,Yes,Recovered,Nurse,47.3,2024-03-22
+100149,73,Female,India,Paracetamol,Fever,Diarrhea,No,Not Recovered,Pharmacist,97.4,2024-12-27
+100150,74,Male,UK,Paracetamol,Diabetes,Fatigue,No,Hospitalized,Physician,78.3,2024-05-26
+100151,65,Female,Brazil,Paracetamol,Hyperlipidemia,Rash,No,Recovered,Consumer,58.7,2025-04-05
+100152,21,Male,Brazil,Insulin,Infection,Fever,Yes,Not Recovered,Nurse,56.8,2024-04-26
+100153,80,Male,USA,Metformin,Pain,Cough,Yes,Recovering,Physician,89.6,2024-10-19
+100154,62,Male,Germany,Amoxicillin,Diabetes,Rash,No,Recovered,Physician,99.2,2024-11-23
+100155,48,Female,India,Ibuprofen,Hyperlipidemia,Pruritus,No,Not Recovered,Pharmacist,78.7,2024-05-22
+100156,26,Female,Australia,Omeprazole,Hyperlipidemia,Diarrhea,No,Not Recovered,Physician,51.9,2024-03-29
+100157,27,Female,Brazil,Insulin,Hypertension,Rash,No,Not Recovered,Pharmacist,87.2,2024-11-20
+100158,73,Male,USA,Insulin,Diabetes,Vomiting,Yes,Recovered,Pharmacist,64.0,2024-05-12
+100159,54,Male,Germany,Atorvastatin,Fever,Fever,No,Recovering,Physician,72.6,2025-06-15
+100160,37,Male,Japan,Levothyroxine,Pain,Headache,Yes,Hospitalized,Consumer,80.8,2024-06-21
+100161,21,Female,Germany,Amoxicillin,Infection,Dizziness,No,Recovering,Consumer,69.9,2025-03-02
+100162,38,Female,Australia,Omeprazole,Infection,Dizziness,No,Recovered,Consumer,85.4,2024-03-02
+100163,69,Male,Japan,Insulin,Hyperlipidemia,Nausea,No,Recovered,Consumer,69.7,2024-12-19
+100164,30,Male,Germany,Losartan,Hyperlipidemia,Diarrhea,Yes,Not Recovered,Pharmacist,89.7,2024-05-24
+100165,42,Male,Brazil,Insulin,Infection,Cough,No,Recovered,Physician,97.0,2024-11-16
+100166,76,Male,Canada,Levothyroxine,Hypertension,Headache,Yes,Recovered,Nurse,60.7,2025-06-01
+100167,31,Female,UK,Amoxicillin,Fever,Fatigue,No,Recovered,Nurse,47.8,2024-01-09
+100168,64,Female,USA,Losartan,Hyperlipidemia,Cough,No,Recovered,Physician,52.1,2024-07-18
+100169,68,Female,Japan,Insulin,Hypertension,Rash,Yes,Recovered,Physician,47.5,2024-04-09
+100170,60,Female,Brazil,Metformin,Hyperlipidemia,Fever,Yes,Hospitalized,Consumer,53.9,2024-05-20
+100171,61,Female,Germany,Omeprazole,Pain,Fatigue,No,Recovered,Nurse,77.1,2024-11-02
+100172,78,Female,Canada,Aspirin,Hyperlipidemia,Cough,Yes,Recovering,Nurse,53.1,2024-01-28
+100173,22,Male,Canada,Aspirin,Infection,Fatigue,No,Recovered,Pharmacist,67.6,2024-09-05
+100174,25,Male,Canada,Insulin,Hypertension,Cough,No,Recovered,Pharmacist,70.3,2025-04-27
+100175,87,Female,Germany,Levothyroxine,Infection,Dizziness,No,Recovered,Consumer,57.4,2024-12-16
+100176,54,Male,Brazil,Ibuprofen,Infection,Fatigue,No,Hospitalized,Consumer,60.8,2024-10-31
+100177,68,Female,UK,Amoxicillin,Pain,Vomiting,No,Recovered,Nurse,81.1,2025-01-23
+100178,45,Male,Germany,Insulin,Fever,Vomiting,Yes,Recovering,Pharmacist,58.3,2025-05-05
+100179,47,Male,USA,Losartan,Hypertension,Cough,Yes,Not Recovered,Physician,98.0,2024-08-19
+100180,70,Female,Brazil,Atorvastatin,Hypertension,Fatigue,No,Recovered,Physician,80.9,2024-06-10
+100181,86,Male,UK,Losartan,Diabetes,Headache,No,Recovered,Nurse,55.2,2024-08-25
+100182,22,Male,Germany,Levothyroxine,Hyperlipidemia,Nausea,No,Recovered,Nurse,99.4,2024-10-23
+100183,81,Male,Brazil,Amoxicillin,Diabetes,Nausea,No,Recovering,Consumer,84.5,2025-06-20
+100184,61,Female,Canada,Metformin,Hyperlipidemia,Diarrhea,No,Recovered,Physician,67.0,2024-01-15
+100185,41,Male,Brazil,Ibuprofen,Diabetes,Headache,No,Recovered,Consumer,97.5,2024-04-07
+100186,19,Female,Japan,Atorvastatin,Pain,Nausea,No,Recovered,Consumer,83.0,2024-11-05
+100187,65,Male,Canada,Metformin,Infection,Rash,No,Death,Consumer,67.9,2024-10-29
+100188,86,Male,Canada,Levothyroxine,Pain,Fever,No,Recovering,Physician,95.4,2025-04-27
+100189,25,Male,UK,Metformin,Hypertension,Fever,No,Recovering,Nurse,50.0,2024-04-24
+100190,75,Male,Brazil,Metformin,Hyperlipidemia,Diarrhea,No,Recovered,Nurse,82.0,2025-06-06
+100191,20,Female,Germany,Aspirin,Fever,Dizziness,No,Recovered,Consumer,83.5,2024-11-11
+100192,26,Female,India,Amoxicillin,Infection,Rash,No,Not Recovered,Nurse,65.6,2024-03-02
+100193,75,Female,Australia,Paracetamol,Fever,Fever,Yes,Not Recovered,Physician,54.8,2025-01-26
+100194,85,Male,Canada,Aspirin,Pain,Vomiting,No,Recovering,Nurse,74.3,2025-02-06
+100195,49,Female,Japan,Metformin,Hypertension,Dizziness,No,Recovering,Physician,46.8,2024-08-23
+100196,20,Male,Canada,Paracetamol,Pain,Pruritus,Yes,Recovering,Physician,58.5,2025-03-05
+100197,69,Female,Canada,Insulin,Diabetes,Headache,Yes,Death,Pharmacist,89.9,2024-02-15
+100198,59,Male,Germany,Metformin,Fever,Fever,Yes,Recovered,Physician,75.6,2024-11-22
+100199,72,Female,India,Ibuprofen,Fever,Diarrhea,No,Recovered,Nurse,67.5,2024-06-28
+100200,66,Male,Brazil,Atorvastatin,Diabetes,Vomiting,No,Recovered,Nurse,95.3,2024-11-03
+100201,71,Male,Australia,Atorvastatin,Hypertension,Dizziness,No,Recovered,Nurse,91.6,2025-02-26
+100202,86,Male,India,Amoxicillin,Infection,Pruritus,No,Not Recovered,Pharmacist,89.3,2024-04-04
+100203,79,Male,Japan,Amoxicillin,Pain,Dizziness,No,Hospitalized,Physician,86.1,2024-08-10
+100204,49,Male,Australia,Atorvastatin,Hyperlipidemia,Fatigue,No,Recovered,Consumer,62.0,2025-05-05
+100205,83,Female,Brazil,Paracetamol,Fever,Cough,No,Recovered,Pharmacist,65.4,2025-01-03
+100206,23,Male,UK,Aspirin,Hypertension,Fever,No,Recovering,Nurse,61.2,2025-02-27
+100207,60,Male,Australia,Levothyroxine,Diabetes,Cough,No,Hospitalized,Consumer,59.2,2024-07-19
+100208,80,Female,UK,Ibuprofen,Diabetes,Rash,No,Recovered,Physician,73.8,2025-05-15
+100209,24,Male,Australia,Metformin,Fever,Dizziness,Yes,Recovered,Pharmacist,72.8,2024-03-17
+100210,25,Female,Brazil,Aspirin,Pain,Fever,No,Recovered,Consumer,74.5,2025-01-17
+100211,20,Female,UK,Paracetamol,Pain,Fever,Yes,Recovered,Consumer,89.8,2024-10-20
+100212,68,Male,Japan,Losartan,Infection,Pruritus,Yes,Recovering,Consumer,82.6,2024-09-30
+100213,22,Male,Australia,Losartan,Infection,Fever,No,Recovering,Pharmacist,49.5,2024-03-23
+100214,60,Male,India,Atorvastatin,Diabetes,Pruritus,No,Recovered,Physician,82.6,2025-03-20
+100215,87,Male,UK,Ibuprofen,Pain,Dizziness,No,Not Recovered,Nurse,96.1,2024-10-14
+100216,38,Male,Australia,Insulin,Hypertension,Diarrhea,No,Recovered,Physician,72.5,2024-11-02
+100217,24,Male,Australia,Atorvastatin,Pain,Fatigue,No,Recovering,Nurse,98.3,2024-12-20
+100218,21,Female,Brazil,Omeprazole,Diabetes,Fatigue,No,Recovered,Pharmacist,82.4,2024-11-30
+100219,28,Female,Canada,Paracetamol,Pain,Vomiting,Yes,Recovering,Pharmacist,85.7,2025-01-24
+100220,64,Male,USA,Aspirin,Hypertension,Cough,No,Recovered,Pharmacist,49.8,2024-11-20
+100221,75,Female,USA,Aspirin,Pain,Fatigue,No,Recovering,Consumer,92.5,2025-03-17
+100222,55,Female,Australia,Paracetamol,Fever,Fever,No,Hospitalized,Pharmacist,82.7,2024-01-13
+100223,35,Female,Germany,Amoxicillin,Infection,Rash,Yes,Recovered,Nurse,61.5,2024-06-22
+100224,64,Female,Canada,Omeprazole,Hyperlipidemia,Pruritus,Yes,Recovered,Consumer,45.4,2024-03-19
+100225,60,Female,Japan,Omeprazole,Hypertension,Diarrhea,No,Not Recovered,Pharmacist,61.5,2025-02-09
+100226,79,Female,UK,Losartan,Hypertension,Vomiting,No,Recovering,Pharmacist,62.9,2024-07-24
+100227,68,Female,USA,Levothyroxine,Diabetes,Pruritus,No,Recovered,Physician,97.4,2024-10-14
+100228,44,Female,Germany,Paracetamol,Infection,Cough,Yes,Recovered,Consumer,81.2,2025-04-17
+100229,66,Male,Brazil,Levothyroxine,Infection,Pruritus,No,Recovered,Nurse,74.9,2025-03-09
+100230,86,Male,USA,Atorvastatin,Fever,Fatigue,Yes,Recovering,Nurse,98.2,2025-01-03
+100231,73,Male,India,Paracetamol,Hypertension,Dizziness,No,Recovered,Pharmacist,69.5,2024-12-05
+100232,77,Male,Japan,Aspirin,Infection,Nausea,No,Hospitalized,Physician,51.4,2025-02-04
+100233,62,Female,Japan,Omeprazole,Diabetes,Fever,No,Recovered,Nurse,84.7,2024-05-25
+100234,58,Male,Germany,Aspirin,Fever,Nausea,Yes,Recovered,Physician,82.2,2025-04-08
+100235,49,Male,UK,Ibuprofen,Hyperlipidemia,Diarrhea,No,Recovered,Nurse,79.6,2024-06-17
+100236,73,Female,India,Levothyroxine,Diabetes,Cough,No,Recovered,Pharmacist,56.3,2024-07-09
+100237,31,Male,Japan,Ibuprofen,Diabetes,Cough,Yes,Recovering,Nurse,74.0,2024-03-05
+100238,67,Female,USA,Ibuprofen,Hypertension,Cough,No,Not Recovered,Consumer,95.5,2024-11-16
+100239,35,Female,USA,Atorvastatin,Hypertension,Nausea,Yes,Recovering,Nurse,68.0,2024-03-27
+100240,67,Female,UK,Omeprazole,Fever,Fever,No,Recovering,Pharmacist,75.5,2024-05-21
+100241,54,Male,UK,Ibuprofen,Infection,Pruritus,Yes,Recovered,Physician,71.7,2025-05-16
+100242,67,Female,Australia,Omeprazole,Infection,Cough,No,Recovered,Physician,88.8,2024-07-18
+100243,55,Male,Germany,Atorvastatin,Hyperlipidemia,Vomiting,Yes,Recovered,Nurse,75.2,2024-08-13
+100244,32,Female,Japan,Insulin,Pain,Cough,No,Death,Physician,85.5,2024-04-25
+100245,56,Male,Brazil,Amoxicillin,Hypertension,Nausea,No,Death,Pharmacist,56.5,2024-09-10
+100246,72,Male,UK,Atorvastatin,Diabetes,Headache,No,Recovered,Pharmacist,62.8,2024-12-25
+100247,55,Female,USA,Metformin,Infection,Headache,No,Not Recovered,Pharmacist,83.6,2024-10-26
+100248,49,Male,Japan,Atorvastatin,Fever,Diarrhea,No,Recovering,Consumer,79.5,2024-05-15
+100249,75,Male,USA,Losartan,Hyperlipidemia,Vomiting,No,Not Recovered,Nurse,97.3,2025-01-19
+100250,18,Male,Brazil,Ibuprofen,Pain,Fever,No,Hospitalized,Pharmacist,72.2,2024-12-01
+100251,54,Female,UK,Levothyroxine,Infection,Fatigue,No,Not Recovered,Physician,50.5,2024-11-26
+100252,20,Male,UK,Omeprazole,Infection,Headache,No,Recovered,Pharmacist,93.5,2025-04-15
+100253,38,Female,USA,Ibuprofen,Hypertension,Nausea,No,Hospitalized,Pharmacist,47.8,2024-11-05
+100254,47,Female,USA,Paracetamol,Pain,Dizziness,No,Recovered,Pharmacist,73.6,2024-11-08
+100255,19,Male,Japan,Paracetamol,Infection,Rash,No,Recovered,Physician,85.2,2025-03-31
+100256,31,Female,Japan,Amoxicillin,Diabetes,Diarrhea,No,Not Recovered,Pharmacist,80.3,2024-04-14
+100257,26,Male,UK,Omeprazole,Hypertension,Dizziness,No,Recovered,Nurse,78.9,2024-05-26
+100258,45,Male,USA,Metformin,Pain,Pruritus,No,Recovered,Nurse,62.3,2025-03-29
+100259,49,Female,USA,Atorvastatin,Hyperlipidemia,Pruritus,No,Recovering,Physician,91.6,2024-05-23
+100260,44,Male,Australia,Amoxicillin,Fever,Headache,No,Not Recovered,Pharmacist,72.2,2024-11-04
+100261,48,Female,USA,Insulin,Pain,Fatigue,No,Recovered,Nurse,65.1,2024-04-25
+100262,78,Male,India,Levothyroxine,Pain,Headache,No,Recovered,Physician,97.2,2024-06-25
+100263,82,Female,Australia,Losartan,Fever,Diarrhea,Yes,Recovered,Pharmacist,60.3,2025-02-11
+100264,28,Male,UK,Insulin,Hypertension,Diarrhea,No,Not Recovered,Physician,62.1,2024-11-13
+100265,48,Male,Canada,Paracetamol,Infection,Nausea,No,Recovering,Consumer,81.6,2025-03-23
+100266,33,Male,UK,Aspirin,Diabetes,Cough,No,Recovered,Consumer,54.2,2024-06-28
+100267,52,Male,India,Ibuprofen,Infection,Vomiting,No,Recovered,Physician,72.3,2024-05-09
+100268,64,Male,Brazil,Levothyroxine,Diabetes,Fatigue,Yes,Not Recovered,Physician,57.6,2025-06-07
+100269,18,Male,India,Atorvastatin,Pain,Cough,No,Hospitalized,Pharmacist,96.2,2025-06-05
+100270,88,Female,Canada,Ibuprofen,Diabetes,Diarrhea,No,Recovered,Physician,76.4,2024-02-06
+100271,82,Male,UK,Atorvastatin,Hyperlipidemia,Headache,No,Recovered,Nurse,92.6,2024-05-02
+100272,59,Male,Brazil,Aspirin,Hypertension,Dizziness,No,Not Recovered,Pharmacist,70.5,2024-11-14
+100273,43,Male,UK,Aspirin,Infection,Headache,Yes,Recovered,Physician,97.3,2025-05-20
+100274,66,Female,USA,Atorvastatin,Hyperlipidemia,Dizziness,No,Hospitalized,Pharmacist,84.1,2024-01-02
+100275,23,Male,Australia,Ibuprofen,Infection,Nausea,No,Recovered,Nurse,49.1,2024-04-05
+100276,73,Male,Canada,Amoxicillin,Hypertension,Fatigue,No,Recovered,Consumer,62.5,2024-03-04
+100277,47,Male,Canada,Metformin,Hyperlipidemia,Nausea,Yes,Recovered,Nurse,62.3,2024-10-05
+100278,86,Female,Canada,Omeprazole,Hypertension,Cough,No,Recovered,Pharmacist,89.4,2024-05-03
+100279,23,Male,Japan,Metformin,Pain,Dizziness,No,Recovered,Physician,82.2,2024-11-07
+100280,40,Male,Australia,Omeprazole,Hyperlipidemia,Fever,Yes,Recovered,Pharmacist,51.7,2024-09-23
+100281,46,Male,Canada,Losartan,Hypertension,Nausea,No,Recovered,Physician,46.2,2024-03-04
+100282,43,Female,UK,Paracetamol,Hypertension,Nausea,Yes,Recovered,Pharmacist,95.8,2024-03-07
+100283,68,Female,India,Losartan,Fever,Diarrhea,Yes,Recovered,Pharmacist,60.1,2025-03-19
+100284,37,Male,Canada,Amoxicillin,Infection,Diarrhea,No,Recovered,Physician,60.4,2025-04-01
+100285,71,Male,Canada,Insulin,Pain,Diarrhea,No,Recovered,Nurse,63.9,2024-05-20
+100286,59,Female,Germany,Metformin,Pain,Fatigue,No,Recovered,Consumer,48.2,2025-05-29
+100287,85,Female,Canada,Metformin,Pain,Dizziness,No,Recovered,Physician,87.0,2025-04-28
+100288,67,Female,UK,Metformin,Diabetes,Pruritus,No,Recovering,Consumer,95.3,2024-08-12
+100289,63,Male,Canada,Omeprazole,Hyperlipidemia,Vomiting,Yes,Recovered,Physician,57.8,2024-01-29
+100290,20,Female,India,Ibuprofen,Hyperlipidemia,Dizziness,No,Recovered,Pharmacist,95.5,2024-08-12
+100291,25,Male,UK,Levothyroxine,Fever,Rash,No,Not Recovered,Consumer,97.8,2024-11-27
+100292,68,Male,Japan,Amoxicillin,Hypertension,Rash,No,Recovering,Nurse,88.6,2025-01-17
+100293,58,Male,Japan,Atorvastatin,Fever,Pruritus,No,Recovered,Consumer,52.0,2025-05-13
+100294,68,Male,UK,Levothyroxine,Hypertension,Pruritus,Yes,Recovering,Nurse,52.7,2024-01-02
+100295,48,Female,Japan,Metformin,Fever,Nausea,No,Recovering,Consumer,69.6,2024-03-20
+100296,44,Male,USA,Ibuprofen,Hypertension,Nausea,No,Recovered,Nurse,85.3,2024-09-28
+100297,70,Female,Australia,Ibuprofen,Hyperlipidemia,Diarrhea,Yes,Recovered,Pharmacist,53.9,2024-06-19
+100298,22,Female,India,Ibuprofen,Hypertension,Nausea,Yes,Recovered,Nurse,53.8,2024-03-16
+100299,88,Male,Japan,Levothyroxine,Hyperlipidemia,Cough,No,Recovered,Pharmacist,78.4,2024-03-17
+100300,38,Male,USA,Ibuprofen,Diabetes,Dizziness,No,Recovering,Consumer,81.3,2025-03-20
+100301,48,Male,India,Losartan,Hyperlipidemia,Fever,No,Recovered,Consumer,45.2,2024-10-31
+100302,55,Female,Canada,Paracetamol,Pain,Dizziness,Yes,Recovered,Physician,71.0,2024-03-30
+100303,57,Female,Brazil,Omeprazole,Fever,Vomiting,Yes,Recovered,Pharmacist,65.4,2024-04-28
+100304,65,Male,Brazil,Aspirin,Hypertension,Cough,No,Recovered,Consumer,76.0,2025-01-25
+100305,30,Male,Japan,Insulin,Infection,Pruritus,Yes,Recovered,Nurse,90.0,2024-06-03
+100306,86,Female,Canada,Omeprazole,Hypertension,Nausea,No,Not Recovered,Physician,72.6,2025-03-04
+100307,36,Male,Brazil,Metformin,Diabetes,Dizziness,No,Recovered,Nurse,49.3,2025-06-13
+100308,43,Male,Germany,Ibuprofen,Fever,Nausea,Yes,Recovering,Consumer,92.1,2025-03-21
+100309,76,Male,Australia,Paracetamol,Infection,Rash,Yes,Recovering,Physician,95.9,2025-06-16
+100310,54,Female,Australia,Amoxicillin,Infection,Cough,No,Recovered,Pharmacist,60.1,2024-04-13
+100311,69,Male,Australia,Ibuprofen,Fever,Dizziness,Yes,Recovered,Consumer,94.3,2024-05-27
+100312,61,Female,Germany,Amoxicillin,Infection,Nausea,No,Recovered,Consumer,98.6,2024-01-21
+100313,59,Female,Australia,Levothyroxine,Fever,Nausea,Yes,Recovered,Nurse,85.8,2025-03-29
+100314,65,Male,UK,Paracetamol,Hypertension,Fever,No,Not Recovered,Physician,54.6,2025-06-12
+100315,25,Male,India,Omeprazole,Pain,Fatigue,No,Recovered,Nurse,72.8,2024-07-24
+100316,21,Male,Japan,Omeprazole,Hyperlipidemia,Cough,Yes,Not Recovered,Consumer,63.9,2024-05-06
+100317,29,Female,India,Losartan,Pain,Rash,No,Not Recovered,Pharmacist,92.1,2024-09-21
+100318,44,Female,Australia,Insulin,Pain,Headache,No,Recovered,Pharmacist,78.1,2024-08-18
+100319,46,Female,Germany,Amoxicillin,Infection,Diarrhea,No,Recovered,Pharmacist,70.7,2024-01-09
+100320,68,Male,India,Insulin,Fever,Fatigue,No,Recovering,Consumer,61.4,2025-06-17
+100321,79,Male,Japan,Amoxicillin,Fever,Fatigue,No,Recovered,Consumer,55.4,2024-04-20
+100322,48,Male,Australia,Ibuprofen,Fever,Rash,No,Recovering,Consumer,59.3,2025-06-13
+100323,69,Female,India,Levothyroxine,Fever,Pruritus,No,Recovered,Pharmacist,82.7,2025-03-04
+100324,63,Female,UK,Insulin,Diabetes,Vomiting,Yes,Recovered,Consumer,84.9,2025-05-02
+100325,60,Male,Canada,Ibuprofen,Diabetes,Vomiting,No,Not Recovered,Consumer,59.3,2024-07-06
+100326,77,Male,Brazil,Aspirin,Fever,Pruritus,No,Recovering,Nurse,93.9,2024-10-28
+100327,33,Female,Germany,Losartan,Pain,Rash,Yes,Recovered,Nurse,99.3,2025-05-27
+100328,36,Female,UK,Paracetamol,Infection,Fatigue,No,Recovered,Physician,45.3,2025-04-13
+100329,44,Male,UK,Omeprazole,Pain,Rash,No,Recovering,Nurse,68.6,2024-10-07
+100330,67,Male,India,Insulin,Diabetes,Fatigue,No,Not Recovered,Pharmacist,46.0,2025-05-03
+100331,49,Male,Japan,Amoxicillin,Diabetes,Nausea,No,Recovering,Pharmacist,48.6,2024-01-05
+100332,56,Female,Brazil,Insulin,Hyperlipidemia,Fever,No,Not Recovered,Pharmacist,63.9,2024-02-16
+100333,63,Male,UK,Losartan,Pain,Dizziness,Yes,Death,Pharmacist,85.4,2025-05-16
+100334,39,Male,Japan,Aspirin,Infection,Vomiting,No,Recovering,Physician,81.4,2025-05-31
+100335,24,Male,Australia,Omeprazole,Infection,Nausea,No,Recovered,Pharmacist,56.3,2024-01-21
+100336,56,Female,USA,Insulin,Hypertension,Pruritus,No,Recovered,Physician,73.1,2024-01-10
+100337,54,Male,USA,Omeprazole,Diabetes,Pruritus,Yes,Recovered,Pharmacist,64.7,2024-04-30
+100338,55,Male,India,Insulin,Infection,Dizziness,No,Recovered,Pharmacist,45.2,2025-02-23
+100339,32,Female,UK,Paracetamol,Hyperlipidemia,Nausea,No,Recovered,Consumer,80.4,2024-04-01
+100340,55,Female,Brazil,Aspirin,Pain,Rash,No,Not Recovered,Consumer,89.1,2025-04-12
+100341,72,Male,USA,Aspirin,Pain,Rash,No,Recovered,Consumer,94.2,2024-11-16
+100342,29,Female,Japan,Metformin,Pain,Diarrhea,No,Recovered,Nurse,82.9,2024-10-01
+100343,71,Male,USA,Metformin,Fever,Headache,No,Not Recovered,Physician,67.9,2025-05-04
+100344,90,Female,UK,Levothyroxine,Infection,Fatigue,No,Not Recovered,Pharmacist,71.6,2025-05-09
+100345,32,Female,Brazil,Aspirin,Pain,Vomiting,No,Recovered,Pharmacist,98.8,2025-05-14
+100346,84,Male,Australia,Atorvastatin,Infection,Fatigue,No,Recovering,Pharmacist,91.1,2024-12-12
+100347,19,Male,Brazil,Omeprazole,Diabetes,Nausea,No,Recovered,Consumer,98.4,2024-02-25
+100348,82,Male,Australia,Losartan,Diabetes,Nausea,No,Not Recovered,Nurse,49.8,2024-02-21
+100349,75,Female,USA,Omeprazole,Fever,Headache,Yes,Recovered,Physician,90.4,2025-05-25
+100350,83,Male,Brazil,Ibuprofen,Hypertension,Headache,No,Not Recovered,Consumer,75.8,2024-11-07
+100351,64,Female,USA,Paracetamol,Fever,Dizziness,Yes,Recovered,Consumer,75.1,2025-04-29
+100352,31,Male,UK,Omeprazole,Diabetes,Diarrhea,Yes,Recovering,Pharmacist,51.6,2025-01-17
+100353,45,Female,Canada,Ibuprofen,Pain,Diarrhea,Yes,Recovering,Physician,87.5,2025-02-06
+100354,76,Male,Brazil,Aspirin,Hyperlipidemia,Headache,No,Recovered,Nurse,95.8,2025-04-06
+100355,40,Male,USA,Losartan,Fever,Pruritus,No,Recovered,Nurse,68.0,2024-06-30
+100356,53,Female,Japan,Amoxicillin,Infection,Rash,Yes,Recovering,Consumer,91.4,2024-09-11
+100357,88,Male,Canada,Atorvastatin,Hyperlipidemia,Vomiting,No,Hospitalized,Pharmacist,99.0,2024-11-17
+100358,82,Female,USA,Ibuprofen,Hyperlipidemia,Cough,No,Hospitalized,Nurse,82.1,2024-07-01
+100359,72,Male,USA,Aspirin,Infection,Rash,Yes,Recovered,Consumer,86.3,2024-10-19
+100360,54,Female,UK,Aspirin,Fever,Vomiting,Yes,Recovered,Consumer,89.8,2024-06-13
+100361,89,Male,Australia,Atorvastatin,Hyperlipidemia,Vomiting,No,Recovered,Nurse,66.3,2024-04-14
+100362,88,Male,India,Amoxicillin,Diabetes,Pruritus,No,Not Recovered,Nurse,90.6,2024-11-16
+100363,87,Male,Canada,Amoxicillin,Infection,Rash,No,Recovered,Pharmacist,85.4,2025-01-11
+100364,66,Male,Australia,Amoxicillin,Hyperlipidemia,Vomiting,Yes,Recovering,Consumer,45.3,2024-05-02
+100365,37,Male,UK,Ibuprofen,Hyperlipidemia,Headache,No,Recovering,Consumer,72.0,2025-04-22
+100366,27,Female,Canada,Metformin,Hyperlipidemia,Nausea,No,Recovered,Nurse,50.1,2025-01-01
+100367,45,Female,Japan,Ibuprofen,Hypertension,Dizziness,No,Recovering,Nurse,99.8,2024-08-14
+100368,32,Female,Brazil,Atorvastatin,Fever,Pruritus,No,Recovered,Physician,82.5,2024-01-10
+100369,66,Male,Australia,Amoxicillin,Hyperlipidemia,Vomiting,Yes,Recovered,Consumer,73.3,2024-11-24
+100370,75,Female,India,Amoxicillin,Fever,Dizziness,No,Recovered,Physician,54.2,2025-06-04
+100371,26,Male,Canada,Losartan,Pain,Dizziness,No,Recovering,Nurse,80.6,2024-01-08
+100372,37,Male,Brazil,Ibuprofen,Pain,Nausea,Yes,Recovered,Consumer,75.7,2024-03-14
+100373,51,Female,Australia,Omeprazole,Fever,Diarrhea,No,Recovered,Physician,74.4,2024-08-21
+100374,23,Male,Japan,Insulin,Pain,Vomiting,No,Recovered,Physician,60.5,2024-03-05
+100375,66,Female,India,Omeprazole,Diabetes,Fever,Yes,Recovering,Consumer,97.8,2025-03-24
+100376,56,Female,India,Insulin,Hyperlipidemia,Rash,Yes,Recovered,Nurse,74.5,2024-05-27
+100377,57,Male,Japan,Atorvastatin,Infection,Fever,Yes,Recovered,Consumer,55.7,2024-03-28
+100378,90,Male,Brazil,Insulin,Pain,Vomiting,No,Recovered,Pharmacist,84.9,2024-07-04
+100379,60,Female,UK,Atorvastatin,Pain,Vomiting,No,Hospitalized,Consumer,71.7,2025-05-13
+100380,57,Male,Japan,Ibuprofen,Infection,Rash,Yes,Recovered,Pharmacist,84.2,2024-12-02
+100381,53,Female,UK,Ibuprofen,Infection,Cough,No,Not Recovered,Nurse,75.3,2025-03-22
+100382,28,Female,UK,Insulin,Diabetes,Vomiting,No,Recovering,Physician,94.1,2024-06-28
+100383,21,Female,Canada,Aspirin,Hyperlipidemia,Vomiting,No,Death,Nurse,81.0,2025-06-03
+100384,64,Female,Canada,Levothyroxine,Fever,Vomiting,Yes,Recovered,Physician,66.8,2024-06-01
+100385,19,Male,UK,Insulin,Diabetes,Cough,Yes,Recovering,Pharmacist,85.5,2025-05-29
+100386,63,Male,Canada,Omeprazole,Diabetes,Nausea,No,Recovered,Pharmacist,73.5,2025-05-10
+100387,67,Female,Brazil,Aspirin,Pain,Fatigue,Yes,Hospitalized,Consumer,90.9,2025-01-04
+100388,87,Male,Australia,Losartan,Hypertension,Pruritus,No,Not Recovered,Consumer,65.7,2024-09-26
+100389,84,Female,Japan,Ibuprofen,Infection,Cough,No,Recovered,Pharmacist,69.2,2024-08-16
+100390,27,Female,Canada,Metformin,Diabetes,Rash,No,Recovering,Physician,81.4,2024-08-23
+100391,60,Male,Brazil,Omeprazole,Infection,Dizziness,No,Recovering,Nurse,46.2,2025-02-28
+100392,34,Male,UK,Insulin,Pain,Pruritus,Yes,Recovered,Pharmacist,73.4,2024-02-14
+100393,90,Male,Germany,Paracetamol,Diabetes,Cough,No,Recovered,Nurse,54.4,2025-02-19
+100394,36,Male,Germany,Metformin,Fever,Fatigue,No,Recovering,Physician,57.6,2025-02-24
+100395,34,Male,India,Atorvastatin,Hyperlipidemia,Fever,No,Not Recovered,Physician,54.8,2025-01-29
+100396,86,Male,USA,Omeprazole,Fever,Rash,No,Recovered,Physician,94.3,2024-02-09
+100397,84,Female,Japan,Aspirin,Fever,Fever,No,Hospitalized,Nurse,88.4,2025-03-17
+100398,62,Male,Australia,Metformin,Hypertension,Cough,No,Hospitalized,Physician,60.6,2025-01-25
+100399,50,Male,India,Aspirin,Hyperlipidemia,Fever,Yes,Recovered,Pharmacist,82.8,2025-02-22
+100400,70,Female,USA,Metformin,Infection,Pruritus,No,Not Recovered,Nurse,76.1,2024-11-19
+100401,68,Male,Australia,Insulin,Hyperlipidemia,Cough,Yes,Recovering,Nurse,59.0,2024-10-09
+100402,62,Female,UK,Paracetamol,Fever,Dizziness,No,Recovering,Pharmacist,50.5,2024-11-10
+100403,69,Female,India,Metformin,Infection,Headache,No,Not Recovered,Nurse,95.9,2025-06-04
+100404,29,Male,Germany,Atorvastatin,Hypertension,Nausea,No,Recovering,Nurse,78.8,2025-03-21
+100405,54,Male,UK,Omeprazole,Infection,Headache,Yes,Recovering,Consumer,55.7,2025-06-17
+100406,84,Male,UK,Aspirin,Hypertension,Dizziness,No,Hospitalized,Physician,99.8,2025-06-06
+100407,63,Female,Australia,Levothyroxine,Diabetes,Fever,Yes,Recovering,Physician,75.2,2025-02-13
+100408,62,Female,Canada,Levothyroxine,Diabetes,Cough,No,Recovering,Consumer,54.6,2024-12-22
+100409,31,Male,Germany,Ibuprofen,Pain,Fever,No,Not Recovered,Consumer,83.2,2025-06-02
+100410,90,Female,Canada,Ibuprofen,Infection,Cough,No,Not Recovered,Nurse,51.4,2025-01-21
+100411,66,Male,Canada,Ibuprofen,Infection,Fatigue,No,Recovered,Consumer,58.7,2024-03-10
+100412,69,Female,USA,Insulin,Diabetes,Cough,No,Recovered,Consumer,55.1,2024-04-05
+100413,81,Male,Canada,Atorvastatin,Hypertension,Dizziness,Yes,Not Recovered,Consumer,53.6,2024-07-13
+100414,33,Male,Brazil,Levothyroxine,Pain,Fever,No,Not Recovered,Consumer,79.1,2024-04-19
+100415,53,Female,UK,Insulin,Hypertension,Diarrhea,Yes,Recovering,Physician,73.9,2025-05-19
+100416,79,Male,Japan,Losartan,Fever,Rash,No,Recovered,Nurse,62.4,2025-03-09
+100417,19,Male,Australia,Levothyroxine,Pain,Fatigue,No,Not Recovered,Pharmacist,75.2,2024-01-09
+100418,52,Female,Japan,Ibuprofen,Diabetes,Cough,No,Recovered,Consumer,65.1,2024-08-30
+100419,53,Female,UK,Levothyroxine,Diabetes,Pruritus,No,Not Recovered,Consumer,89.2,2025-02-14
+100420,66,Male,UK,Metformin,Infection,Headache,Yes,Recovered,Consumer,88.2,2025-03-18
+100421,50,Male,Australia,Paracetamol,Fever,Rash,Yes,Not Recovered,Nurse,91.1,2024-11-03
+100422,75,Female,Germany,Ibuprofen,Hypertension,Fever,No,Not Recovered,Consumer,46.1,2024-04-08
+100423,62,Male,UK,Amoxicillin,Hypertension,Fatigue,No,Recovered,Nurse,93.9,2024-05-04
+100424,54,Female,UK,Metformin,Fever,Fatigue,No,Recovering,Nurse,91.7,2025-01-25
+100425,28,Male,Japan,Atorvastatin,Hypertension,Fatigue,No,Recovering,Nurse,59.9,2024-03-14
+100426,64,Female,Australia,Metformin,Diabetes,Headache,Yes,Recovered,Consumer,96.7,2025-03-31
+100427,44,Male,Australia,Paracetamol,Pain,Nausea,No,Recovered,Physician,46.5,2024-03-22
+100428,85,Male,USA,Amoxicillin,Hyperlipidemia,Rash,Yes,Hospitalized,Nurse,62.0,2025-02-10
+100429,54,Female,UK,Metformin,Hyperlipidemia,Rash,Yes,Recovering,Consumer,92.5,2024-09-10
+100430,87,Female,Brazil,Metformin,Fever,Fever,Yes,Recovering,Nurse,73.8,2025-04-23
+100431,62,Female,Canada,Paracetamol,Infection,Vomiting,No,Recovered,Consumer,45.6,2024-11-13
+100432,35,Female,Germany,Omeprazole,Hyperlipidemia,Headache,No,Recovered,Nurse,61.5,2025-06-19
+100433,55,Male,India,Insulin,Hypertension,Dizziness,No,Recovering,Nurse,58.7,2025-03-16
+100434,66,Male,Germany,Paracetamol,Infection,Dizziness,No,Not Recovered,Consumer,60.7,2025-02-03
+100435,70,Male,USA,Metformin,Diabetes,Vomiting,Yes,Recovered,Nurse,60.0,2024-10-02
+100436,42,Female,India,Metformin,Pain,Fever,Yes,Hospitalized,Consumer,59.8,2025-05-18
+100437,19,Male,USA,Metformin,Pain,Cough,Yes,Recovered,Nurse,99.9,2025-03-24
+100438,22,Female,USA,Metformin,Pain,Vomiting,No,Recovered,Nurse,55.0,2025-04-19
+100439,66,Male,USA,Atorvastatin,Infection,Cough,Yes,Death,Pharmacist,70.3,2024-09-13
+100440,84,Male,Brazil,Losartan,Fever,Vomiting,No,Recovered,Physician,86.0,2024-04-06
+100441,33,Female,Brazil,Amoxicillin,Diabetes,Fatigue,No,Not Recovered,Pharmacist,98.5,2025-06-17
+100442,73,Female,India,Metformin,Hypertension,Pruritus,Yes,Not Recovered,Physician,98.3,2024-08-29
+100443,37,Female,USA,Atorvastatin,Diabetes,Cough,Yes,Recovering,Physician,48.3,2025-05-01
+100444,86,Male,UK,Omeprazole,Diabetes,Fatigue,No,Not Recovered,Consumer,89.3,2024-06-06
+100445,42,Male,Australia,Ibuprofen,Fever,Rash,No,Recovered,Nurse,75.7,2025-03-25
+100446,42,Male,Japan,Ibuprofen,Fever,Cough,No,Not Recovered,Pharmacist,48.8,2025-05-16
+100447,75,Female,Germany,Insulin,Hypertension,Cough,Yes,Recovering,Nurse,85.4,2024-06-07
+100448,64,Male,Japan,Paracetamol,Fever,Fever,No,Recovered,Nurse,87.1,2024-01-20
+100449,54,Female,Australia,Ibuprofen,Pain,Nausea,No,Recovered,Pharmacist,54.8,2024-06-06
+100450,43,Male,Brazil,Atorvastatin,Pain,Headache,No,Not Recovered,Nurse,73.9,2024-02-02
+100451,24,Female,Canada,Levothyroxine,Fever,Nausea,Yes,Hospitalized,Nurse,96.1,2024-09-19
+100452,77,Male,Japan,Insulin,Fever,Diarrhea,No,Not Recovered,Physician,90.3,2024-03-22
+100453,85,Male,USA,Amoxicillin,Pain,Dizziness,No,Recovered,Pharmacist,74.2,2024-09-29
+100454,42,Male,UK,Insulin,Fever,Fever,No,Recovered,Consumer,82.1,2024-07-13
+100455,31,Male,UK,Insulin,Infection,Fever,No,Recovered,Nurse,96.3,2025-03-13
+100456,88,Female,Japan,Losartan,Fever,Diarrhea,No,Recovered,Pharmacist,76.0,2024-11-18
+100457,66,Female,Japan,Omeprazole,Infection,Diarrhea,Yes,Recovered,Consumer,77.8,2024-08-07
+100458,35,Female,India,Amoxicillin,Diabetes,Dizziness,No,Recovered,Consumer,95.6,2025-06-14
+100459,89,Male,USA,Aspirin,Infection,Fatigue,Yes,Recovered,Pharmacist,57.8,2025-06-07
+100460,29,Female,Canada,Paracetamol,Fever,Fatigue,No,Recovered,Physician,77.7,2024-11-03
+100461,22,Female,USA,Aspirin,Hypertension,Fatigue,No,Recovered,Physician,92.8,2024-11-03
+100462,19,Female,India,Amoxicillin,Hyperlipidemia,Headache,No,Recovering,Consumer,72.6,2024-08-20
+100463,37,Male,Australia,Omeprazole,Hyperlipidemia,Pruritus,No,Recovered,Consumer,88.3,2024-08-14
+100464,34,Female,USA,Omeprazole,Hyperlipidemia,Headache,No,Recovered,Nurse,72.6,2024-05-31
+100465,35,Female,Canada,Omeprazole,Infection,Pruritus,Yes,Recovering,Pharmacist,58.3,2024-05-13
+100466,73,Female,USA,Paracetamol,Fever,Diarrhea,No,Recovered,Consumer,63.9,2024-09-29
+100467,57,Male,Japan,Levothyroxine,Infection,Pruritus,Yes,Recovered,Pharmacist,56.0,2024-01-25
+100468,37,Male,USA,Aspirin,Diabetes,Pruritus,No,Not Recovered,Consumer,45.8,2025-01-17
+100469,57,Female,Brazil,Aspirin,Hypertension,Dizziness,No,Recovered,Consumer,75.2,2024-04-23
+100470,20,Female,India,Amoxicillin,Diabetes,Headache,No,Not Recovered,Consumer,47.9,2024-05-24
+100471,26,Female,Germany,Ibuprofen,Pain,Headache,No,Not Recovered,Nurse,57.7,2024-01-09
+100472,83,Male,Japan,Omeprazole,Hyperlipidemia,Fever,Yes,Recovered,Nurse,75.8,2025-01-24
+100473,23,Male,Germany,Ibuprofen,Infection,Diarrhea,No,Recovered,Consumer,64.5,2024-01-23
+100474,48,Female,India,Amoxicillin,Infection,Headache,No,Hospitalized,Pharmacist,53.3,2024-11-05
+100475,35,Male,Australia,Insulin,Fever,Pruritus,No,Recovering,Nurse,58.2,2025-02-06
+100476,72,Female,Japan,Omeprazole,Hyperlipidemia,Rash,Yes,Recovered,Pharmacist,92.4,2024-06-05
+100477,85,Male,Australia,Metformin,Fever,Pruritus,No,Recovered,Physician,55.1,2024-11-12
+100478,21,Female,Australia,Losartan,Hypertension,Cough,No,Not Recovered,Consumer,53.4,2024-05-29
+100479,31,Male,UK,Aspirin,Hyperlipidemia,Pruritus,No,Recovering,Pharmacist,77.8,2024-07-11
+100480,21,Female,USA,Omeprazole,Diabetes,Fever,No,Recovered,Consumer,55.1,2024-08-24
+100481,80,Female,UK,Metformin,Diabetes,Dizziness,Yes,Not Recovered,Physician,95.9,2025-01-31
+100482,46,Male,Canada,Paracetamol,Diabetes,Cough,No,Recovered,Consumer,92.7,2025-02-26
+100483,72,Female,India,Levothyroxine,Fever,Diarrhea,No,Recovered,Physician,73.6,2024-09-09
+100484,76,Male,Canada,Insulin,Hyperlipidemia,Diarrhea,No,Recovered,Nurse,73.4,2025-04-07
+100485,42,Female,Brazil,Losartan,Hypertension,Vomiting,No,Recovered,Physician,82.9,2024-02-20
+100486,77,Female,USA,Insulin,Pain,Rash,No,Hospitalized,Pharmacist,66.6,2024-05-25
+100487,75,Male,UK,Omeprazole,Hyperlipidemia,Dizziness,No,Recovered,Consumer,83.0,2024-11-27
+100488,33,Male,USA,Omeprazole,Fever,Fatigue,Yes,Recovering,Pharmacist,65.8,2024-06-16
+100489,23,Male,Japan,Levothyroxine,Fever,Rash,Yes,Recovered,Physician,68.1,2025-01-24
+100490,75,Female,UK,Paracetamol,Diabetes,Dizziness,Yes,Not Recovered,Physician,70.2,2024-11-12
+100491,87,Male,Brazil,Atorvastatin,Diabetes,Pruritus,No,Recovered,Nurse,49.4,2025-05-25
+100492,49,Female,Canada,Aspirin,Diabetes,Rash,Yes,Recovered,Pharmacist,92.0,2024-01-07
+100493,60,Male,India,Paracetamol,Infection,Rash,Yes,Recovered,Pharmacist,98.1,2024-11-01
+100494,22,Male,Germany,Ibuprofen,Hypertension,Diarrhea,No,Not Recovered,Physician,61.1,2025-01-03
+100495,33,Female,Japan,Insulin,Infection,Fever,Yes,Recovered,Physician,51.0,2024-05-17
+100496,79,Female,Australia,Levothyroxine,Hypertension,Vomiting,No,Death,Consumer,96.0,2024-03-30
+100497,84,Female,Brazil,Metformin,Hyperlipidemia,Dizziness,No,Hospitalized,Physician,51.5,2025-05-23
+100498,33,Male,Australia,Losartan,Pain,Fatigue,No,Not Recovered,Pharmacist,45.6,2025-04-21
+100499,54,Female,USA,Amoxicillin,Hypertension,Fever,No,Not Recovered,Physician,82.7,2024-07-25
+100500,68,Male,UK,Atorvastatin,Hypertension,Fatigue,No,Recovered,Nurse,88.8,2024-12-15
+100501,79,Male,Brazil,Insulin,Hypertension,Cough,No,Recovered,Physician,90.9,2024-05-19
+100502,90,Female,India,Atorvastatin,Hyperlipidemia,Fatigue,No,Not Recovered,Consumer,48.6,2024-11-02
+100503,53,Male,Japan,Losartan,Fever,Fever,No,Recovering,Nurse,55.3,2024-06-01
+100504,57,Female,India,Amoxicillin,Infection,Nausea,No,Recovered,Nurse,90.6,2024-04-29
+100505,45,Female,UK,Paracetamol,Hypertension,Headache,No,Hospitalized,Nurse,72.8,2024-11-05
+100506,82,Male,Canada,Ibuprofen,Infection,Fever,No,Recovered,Physician,90.2,2025-05-09
+100507,34,Male,India,Omeprazole,Infection,Fever,Yes,Recovered,Physician,82.8,2025-06-12
+100508,60,Female,India,Paracetamol,Hyperlipidemia,Vomiting,Yes,Not Recovered,Pharmacist,62.6,2024-03-30
+100509,54,Female,Japan,Omeprazole,Fever,Nausea,No,Recovered,Physician,45.8,2024-07-16
+100510,31,Male,Japan,Insulin,Hypertension,Vomiting,Yes,Recovering,Consumer,76.6,2025-06-10
+100511,27,Female,Japan,Insulin,Infection,Headache,Yes,Recovered,Physician,50.8,2024-06-24
+100512,29,Female,Australia,Metformin,Fever,Pruritus,No,Recovering,Nurse,78.9,2024-02-25
+100513,60,Male,USA,Omeprazole,Hyperlipidemia,Rash,Yes,Not Recovered,Nurse,50.3,2024-11-15
+100514,77,Female,Canada,Atorvastatin,Diabetes,Pruritus,No,Recovered,Pharmacist,83.5,2024-11-13
+100515,59,Female,Brazil,Aspirin,Pain,Cough,Yes,Recovered,Pharmacist,60.5,2024-12-04
+100516,34,Male,Australia,Paracetamol,Hypertension,Fever,No,Not Recovered,Nurse,67.0,2024-12-22
+100517,48,Male,UK,Omeprazole,Infection,Nausea,No,Not Recovered,Nurse,88.1,2025-02-27
+100518,90,Female,Canada,Metformin,Fever,Nausea,No,Recovering,Nurse,51.3,2025-03-21
+100519,59,Male,Brazil,Metformin,Hypertension,Diarrhea,Yes,Recovered,Nurse,63.0,2025-04-19
+100520,29,Male,UK,Levothyroxine,Fever,Headache,No,Recovering,Nurse,74.2,2024-03-03
+100521,75,Male,Canada,Ibuprofen,Hypertension,Pruritus,No,Recovering,Nurse,84.5,2025-02-03
+100522,29,Male,Australia,Metformin,Hypertension,Headache,No,Recovered,Physician,45.0,2024-12-18
+100523,32,Female,India,Atorvastatin,Infection,Pruritus,No,Recovered,Nurse,67.3,2025-01-02
+100524,87,Male,UK,Omeprazole,Diabetes,Dizziness,No,Not Recovered,Consumer,91.2,2025-03-21
+100525,54,Male,UK,Aspirin,Pain,Headache,Yes,Not Recovered,Nurse,98.6,2024-06-06
+100526,28,Male,Australia,Omeprazole,Fever,Pruritus,No,Recovering,Nurse,73.0,2024-05-19
+100527,67,Female,Canada,Metformin,Infection,Pruritus,Yes,Recovered,Pharmacist,84.2,2025-04-05
+100528,70,Female,India,Aspirin,Hyperlipidemia,Cough,No,Recovered,Nurse,97.9,2024-10-02
+100529,36,Female,Brazil,Insulin,Pain,Fever,No,Recovered,Nurse,79.7,2024-03-22
+100530,87,Female,India,Ibuprofen,Hyperlipidemia,Headache,No,Recovered,Nurse,76.6,2024-03-20
+100531,71,Female,Germany,Amoxicillin,Diabetes,Headache,No,Recovering,Consumer,85.0,2024-12-05
+100532,25,Female,UK,Levothyroxine,Pain,Vomiting,No,Recovering,Consumer,71.7,2024-09-23
+100533,82,Male,Germany,Amoxicillin,Diabetes,Pruritus,No,Not Recovered,Physician,85.8,2024-05-09
+100534,37,Female,Japan,Metformin,Hypertension,Dizziness,No,Not Recovered,Physician,63.9,2024-06-27
+100535,36,Male,Brazil,Losartan,Infection,Dizziness,No,Recovering,Pharmacist,56.6,2024-03-27
+100536,24,Female,USA,Aspirin,Diabetes,Cough,No,Recovered,Pharmacist,65.9,2024-12-19
+100537,78,Female,UK,Insulin,Infection,Headache,No,Not Recovered,Nurse,82.3,2025-02-03
+100538,30,Female,Australia,Levothyroxine,Fever,Vomiting,No,Recovered,Physician,59.0,2024-02-12
+100539,77,Male,Canada,Insulin,Hypertension,Rash,No,Recovered,Physician,90.7,2025-02-04
+100540,70,Male,USA,Omeprazole,Hypertension,Dizziness,No,Recovered,Physician,46.3,2024-01-13
+100541,25,Male,USA,Paracetamol,Pain,Pruritus,Yes,Recovering,Pharmacist,94.3,2024-04-04
+100542,50,Female,Brazil,Paracetamol,Fever,Cough,No,Recovered,Nurse,83.1,2024-07-07
+100543,50,Male,USA,Amoxicillin,Pain,Diarrhea,No,Death,Consumer,97.6,2024-11-27
+100544,40,Female,USA,Omeprazole,Diabetes,Pruritus,No,Recovering,Physician,52.9,2024-09-28
+100545,45,Male,Brazil,Amoxicillin,Pain,Headache,Yes,Recovering,Consumer,87.7,2025-03-17
+100546,81,Male,India,Aspirin,Fever,Diarrhea,No,Recovering,Nurse,76.6,2024-01-20
+100547,80,Female,Australia,Losartan,Fever,Nausea,No,Recovered,Nurse,51.7,2025-06-11
+100548,60,Female,Australia,Aspirin,Fever,Nausea,No,Not Recovered,Consumer,49.4,2025-01-02
+100549,55,Male,UK,Insulin,Pain,Diarrhea,No,Recovered,Nurse,94.3,2025-04-15
+100550,80,Male,Brazil,Atorvastatin,Diabetes,Headache,Yes,Recovering,Pharmacist,71.9,2025-01-02
+100551,87,Female,Brazil,Insulin,Infection,Headache,Yes,Recovered,Physician,67.3,2024-03-05
+100552,84,Female,UK,Levothyroxine,Diabetes,Nausea,Yes,Recovered,Physician,70.9,2024-08-04
+100553,49,Male,India,Metformin,Fever,Headache,No,Not Recovered,Physician,70.1,2024-02-16
+100554,26,Male,USA,Omeprazole,Hyperlipidemia,Pruritus,Yes,Not Recovered,Nurse,63.6,2024-06-23
+100555,59,Male,UK,Ibuprofen,Diabetes,Headache,No,Recovered,Physician,60.1,2025-02-15
+100556,39,Female,UK,Omeprazole,Diabetes,Pruritus,Yes,Recovered,Nurse,87.8,2025-03-01
+100557,80,Male,India,Aspirin,Diabetes,Nausea,No,Recovering,Consumer,67.9,2024-01-17
+100558,34,Male,UK,Amoxicillin,Hyperlipidemia,Cough,No,Hospitalized,Physician,77.8,2025-05-02
+100559,29,Female,Japan,Losartan,Pain,Fever,Yes,Recovered,Physician,79.0,2025-05-26
+100560,46,Female,Canada,Amoxicillin,Pain,Dizziness,Yes,Recovered,Nurse,72.4,2025-06-03
+100561,23,Male,Japan,Amoxicillin,Diabetes,Diarrhea,No,Recovering,Nurse,47.4,2024-06-12
+100562,86,Male,UK,Aspirin,Infection,Fever,Yes,Not Recovered,Nurse,77.6,2024-02-23
+100563,71,Male,Japan,Atorvastatin,Pain,Fatigue,Yes,Recovered,Nurse,92.8,2024-11-29
+100564,46,Male,Brazil,Levothyroxine,Infection,Headache,No,Recovered,Nurse,54.8,2025-01-19
+100565,35,Female,Canada,Ibuprofen,Hypertension,Dizziness,No,Recovered,Physician,60.4,2025-01-17
+100566,77,Female,Australia,Metformin,Hypertension,Dizziness,No,Recovering,Pharmacist,76.8,2024-04-23
+100567,29,Female,Brazil,Atorvastatin,Hyperlipidemia,Cough,No,Recovered,Nurse,85.5,2024-08-23
+100568,49,Female,Australia,Levothyroxine,Diabetes,Pruritus,No,Hospitalized,Physician,68.0,2024-09-09
+100569,23,Female,India,Losartan,Hyperlipidemia,Diarrhea,No,Not Recovered,Physician,69.9,2024-02-15
+100570,28,Male,Australia,Atorvastatin,Diabetes,Fatigue,No,Recovering,Physician,45.9,2024-09-03
+100571,38,Female,India,Omeprazole,Infection,Rash,No,Recovered,Consumer,79.5,2024-11-08
+100572,27,Female,Japan,Insulin,Pain,Vomiting,No,Recovered,Pharmacist,88.3,2024-01-02
+100573,60,Male,Japan,Aspirin,Pain,Diarrhea,No,Recovering,Consumer,65.2,2024-03-23
+100574,89,Male,UK,Ibuprofen,Diabetes,Fever,Yes,Recovered,Pharmacist,86.4,2024-03-09
+100575,59,Female,Germany,Insulin,Fever,Diarrhea,No,Recovered,Consumer,69.9,2024-08-18
+100576,85,Male,Brazil,Insulin,Fever,Fever,No,Recovered,Consumer,89.0,2025-05-28
+100577,42,Female,USA,Paracetamol,Infection,Rash,No,Hospitalized,Physician,54.1,2024-03-08
+100578,36,Female,UK,Atorvastatin,Hyperlipidemia,Headache,No,Hospitalized,Pharmacist,71.1,2024-04-24
+100579,74,Male,Germany,Atorvastatin,Pain,Headache,No,Recovered,Consumer,67.6,2025-03-06
+100580,59,Female,Brazil,Omeprazole,Hypertension,Pruritus,Yes,Not Recovered,Pharmacist,88.4,2024-12-17
+100581,79,Female,Germany,Aspirin,Diabetes,Fatigue,No,Hospitalized,Pharmacist,84.1,2024-08-20
+100582,41,Male,UK,Metformin,Diabetes,Nausea,Yes,Recovered,Pharmacist,69.2,2024-10-19
+100583,41,Male,India,Ibuprofen,Hypertension,Rash,No,Recovered,Pharmacist,74.4,2025-01-13
+100584,21,Female,Brazil,Metformin,Infection,Fatigue,Yes,Hospitalized,Consumer,80.6,2024-05-04
+100585,78,Female,UK,Levothyroxine,Fever,Cough,No,Recovered,Nurse,94.5,2024-10-29
+100586,88,Male,Germany,Aspirin,Infection,Pruritus,No,Recovered,Physician,63.0,2024-05-22
+100587,85,Male,Germany,Atorvastatin,Pain,Nausea,No,Recovered,Physician,98.7,2024-07-18
+100588,42,Female,Japan,Levothyroxine,Hyperlipidemia,Fever,No,Hospitalized,Consumer,66.9,2025-02-07
+100589,65,Female,Japan,Aspirin,Hypertension,Fatigue,No,Hospitalized,Physician,56.9,2025-03-13
+100590,71,Female,Germany,Metformin,Fever,Diarrhea,No,Recovered,Physician,52.9,2025-03-30
+100591,78,Female,USA,Levothyroxine,Infection,Nausea,Yes,Recovering,Consumer,67.8,2024-11-06
+100592,90,Male,Canada,Metformin,Infection,Vomiting,No,Recovered,Consumer,90.9,2025-04-18
+100593,81,Female,Canada,Aspirin,Pain,Rash,No,Hospitalized,Nurse,51.8,2024-11-07
+100594,71,Male,Brazil,Atorvastatin,Pain,Nausea,No,Recovered,Physician,77.9,2024-10-21
+100595,79,Female,Germany,Omeprazole,Fever,Nausea,No,Recovering,Physician,91.5,2025-01-05
+100596,25,Male,Japan,Omeprazole,Fever,Rash,No,Recovered,Consumer,68.1,2024-06-15
+100597,24,Female,Germany,Insulin,Fever,Nausea,No,Not Recovered,Pharmacist,87.1,2024-12-30
+100598,87,Female,Japan,Amoxicillin,Hypertension,Fatigue,Yes,Recovering,Pharmacist,45.7,2024-06-20
+100599,54,Female,Brazil,Losartan,Hypertension,Rash,Yes,Recovered,Pharmacist,90.7,2025-06-14
+100600,86,Male,Australia,Omeprazole,Pain,Nausea,No,Hospitalized,Nurse,64.2,2025-06-22
+100601,35,Female,Japan,Metformin,Fever,Vomiting,Yes,Not Recovered,Pharmacist,52.1,2025-01-06
+100602,47,Female,UK,Atorvastatin,Diabetes,Nausea,No,Not Recovered,Physician,49.3,2024-05-25
+100603,73,Male,Canada,Paracetamol,Pain,Fever,No,Recovered,Consumer,47.4,2025-05-10
+100604,19,Male,USA,Levothyroxine,Diabetes,Pruritus,No,Recovered,Consumer,46.6,2024-11-04
+100605,53,Female,Japan,Metformin,Hyperlipidemia,Pruritus,Yes,Recovering,Physician,90.1,2024-05-29
+100606,85,Male,Canada,Amoxicillin,Diabetes,Fever,Yes,Recovering,Pharmacist,95.6,2024-01-15
+100607,64,Male,Brazil,Paracetamol,Diabetes,Fatigue,No,Recovered,Pharmacist,67.4,2025-05-01
+100608,33,Female,USA,Insulin,Diabetes,Cough,No,Recovering,Physician,49.5,2024-11-17
+100609,32,Female,Germany,Omeprazole,Hyperlipidemia,Vomiting,No,Not Recovered,Pharmacist,75.5,2025-05-20
+100610,72,Male,USA,Omeprazole,Fever,Fatigue,Yes,Death,Nurse,82.0,2024-10-24
+100611,74,Male,USA,Metformin,Infection,Diarrhea,No,Hospitalized,Pharmacist,48.6,2025-02-09
+100612,61,Male,Australia,Paracetamol,Diabetes,Diarrhea,No,Recovered,Consumer,86.6,2024-07-22
+100613,63,Female,Australia,Omeprazole,Hyperlipidemia,Vomiting,Yes,Recovered,Physician,58.8,2025-02-13
+100614,47,Male,India,Paracetamol,Fever,Headache,No,Recovered,Physician,98.5,2025-05-24
+100615,59,Male,Germany,Levothyroxine,Hyperlipidemia,Nausea,No,Recovering,Nurse,88.6,2025-01-26
+100616,55,Female,Brazil,Insulin,Hypertension,Fever,No,Not Recovered,Physician,97.4,2024-07-25
+100617,73,Male,Australia,Omeprazole,Hypertension,Diarrhea,No,Recovered,Pharmacist,75.6,2024-02-02
+100618,39,Female,Australia,Metformin,Hypertension,Diarrhea,No,Recovered,Nurse,81.3,2024-11-06
+100619,78,Male,India,Losartan,Hypertension,Cough,No,Recovered,Consumer,87.2,2025-04-26
+100620,59,Male,India,Levothyroxine,Pain,Rash,No,Recovered,Physician,87.1,2024-10-18
+100621,66,Male,Australia,Ibuprofen,Hypertension,Diarrhea,No,Recovering,Pharmacist,57.9,2024-12-15
+100622,28,Male,Germany,Paracetamol,Hypertension,Rash,Yes,Recovered,Nurse,81.2,2024-11-15
+100623,90,Female,Germany,Aspirin,Fever,Cough,No,Death,Nurse,76.4,2025-03-08
+100624,30,Female,USA,Atorvastatin,Hypertension,Cough,No,Not Recovered,Consumer,54.2,2024-11-26
+100625,64,Female,Canada,Omeprazole,Fever,Nausea,No,Recovered,Consumer,59.6,2024-11-02
+100626,69,Male,USA,Levothyroxine,Pain,Pruritus,No,Recovered,Nurse,68.5,2024-10-31
+100627,27,Female,Germany,Losartan,Fever,Fever,No,Recovered,Consumer,79.4,2024-12-21
+100628,88,Male,India,Insulin,Diabetes,Pruritus,No,Recovering,Nurse,59.7,2025-04-09
+100629,90,Male,Canada,Ibuprofen,Infection,Rash,Yes,Recovering,Consumer,91.4,2025-03-20
+100630,58,Male,Canada,Losartan,Hypertension,Vomiting,No,Recovered,Pharmacist,67.3,2025-02-24
+100631,37,Male,India,Atorvastatin,Hypertension,Cough,No,Death,Nurse,80.6,2024-04-26
+100632,43,Male,Germany,Metformin,Pain,Vomiting,No,Recovered,Pharmacist,80.4,2024-02-07
+100633,80,Male,India,Paracetamol,Hypertension,Pruritus,No,Recovered,Nurse,94.3,2024-02-13
+100634,68,Male,Canada,Paracetamol,Hyperlipidemia,Fever,No,Recovered,Consumer,72.3,2024-04-02
+100635,48,Male,Japan,Ibuprofen,Hyperlipidemia,Diarrhea,No,Recovering,Nurse,57.0,2024-04-02
+100636,40,Male,Germany,Omeprazole,Infection,Vomiting,No,Recovered,Consumer,83.5,2024-04-19
+100637,58,Female,Brazil,Atorvastatin,Hypertension,Rash,No,Recovering,Consumer,46.2,2024-04-25
+100638,24,Male,Germany,Insulin,Infection,Vomiting,No,Recovering,Physician,74.4,2024-02-05
+100639,74,Female,India,Losartan,Hypertension,Vomiting,Yes,Not Recovered,Pharmacist,61.4,2024-08-30
+100640,74,Female,Australia,Aspirin,Hypertension,Nausea,No,Hospitalized,Nurse,85.5,2024-06-13
+100641,72,Male,UK,Amoxicillin,Hyperlipidemia,Nausea,No,Recovering,Consumer,69.9,2024-12-06
+100642,24,Male,Brazil,Metformin,Pain,Diarrhea,Yes,Recovered,Physician,51.1,2024-01-29
+100643,84,Male,Australia,Ibuprofen,Infection,Cough,No,Recovered,Pharmacist,82.8,2024-09-12
+100644,54,Male,USA,Losartan,Hypertension,Rash,No,Recovered,Pharmacist,46.1,2024-12-01
+100645,89,Male,USA,Omeprazole,Diabetes,Vomiting,No,Recovered,Nurse,79.0,2024-01-24
+100646,37,Male,Japan,Metformin,Hyperlipidemia,Nausea,Yes,Recovered,Nurse,90.5,2024-09-23
+100647,33,Male,Canada,Atorvastatin,Hypertension,Vomiting,No,Recovered,Nurse,92.1,2025-05-21
+100648,54,Male,Australia,Metformin,Infection,Rash,Yes,Hospitalized,Pharmacist,79.0,2024-08-08
+100649,65,Female,USA,Aspirin,Infection,Rash,No,Hospitalized,Nurse,82.8,2024-09-11
+100650,72,Female,USA,Paracetamol,Hyperlipidemia,Headache,Yes,Hospitalized,Nurse,95.0,2025-01-27
+100651,18,Female,Australia,Amoxicillin,Infection,Fatigue,Yes,Not Recovered,Physician,76.9,2024-02-16
+100652,39,Female,Japan,Omeprazole,Diabetes,Nausea,No,Recovered,Pharmacist,59.3,2024-09-23
+100653,23,Male,Brazil,Amoxicillin,Fever,Fatigue,No,Recovered,Consumer,78.7,2024-11-16
+100654,84,Female,Australia,Metformin,Hypertension,Cough,No,Recovered,Nurse,47.9,2024-09-27
+100655,24,Male,UK,Aspirin,Infection,Vomiting,Yes,Recovered,Physician,99.7,2024-06-01
+100656,23,Female,Japan,Insulin,Infection,Cough,No,Not Recovered,Pharmacist,51.8,2025-05-21
+100657,44,Female,UK,Metformin,Fever,Fever,No,Recovering,Pharmacist,77.1,2024-04-05
+100658,85,Male,Australia,Paracetamol,Diabetes,Cough,No,Not Recovered,Physician,60.6,2024-01-05
+100659,68,Female,USA,Ibuprofen,Diabetes,Headache,Yes,Not Recovered,Nurse,70.0,2024-05-04
+100660,18,Female,India,Levothyroxine,Infection,Fatigue,No,Death,Pharmacist,56.6,2024-10-02
+100661,54,Female,India,Paracetamol,Hyperlipidemia,Pruritus,No,Recovered,Pharmacist,58.2,2024-02-19
+100662,29,Male,Canada,Metformin,Infection,Diarrhea,No,Not Recovered,Pharmacist,51.6,2025-02-12
+100663,73,Female,UK,Ibuprofen,Fever,Nausea,No,Recovered,Nurse,69.5,2025-05-17
+100664,78,Female,Australia,Paracetamol,Infection,Fatigue,No,Recovered,Nurse,50.1,2025-02-01
+100665,61,Female,Canada,Metformin,Infection,Fever,No,Recovered,Consumer,70.8,2025-06-09
+100666,79,Female,UK,Metformin,Fever,Vomiting,No,Recovered,Consumer,76.3,2024-03-22
+100667,23,Male,Australia,Losartan,Pain,Cough,No,Recovering,Consumer,64.6,2024-03-19
+100668,82,Male,USA,Omeprazole,Diabetes,Rash,No,Recovered,Nurse,93.2,2024-03-24
+100669,58,Female,Brazil,Levothyroxine,Hypertension,Fatigue,No,Not Recovered,Pharmacist,56.6,2024-10-31
+100670,51,Male,Australia,Insulin,Pain,Headache,No,Recovered,Nurse,70.3,2024-03-21
+100671,80,Female,Japan,Losartan,Hypertension,Nausea,Yes,Recovered,Physician,89.9,2025-02-18
+100672,21,Male,Brazil,Metformin,Fever,Dizziness,No,Recovering,Pharmacist,49.7,2024-07-11
+100673,36,Female,Australia,Aspirin,Pain,Rash,No,Recovering,Nurse,98.0,2025-04-19
+100674,20,Female,Canada,Atorvastatin,Hypertension,Pruritus,No,Recovered,Consumer,45.4,2025-04-27
+100675,71,Female,Germany,Aspirin,Infection,Diarrhea,No,Recovering,Nurse,57.8,2025-03-18
+100676,85,Male,Australia,Levothyroxine,Hypertension,Fever,Yes,Not Recovered,Nurse,93.9,2024-03-03
+100677,81,Female,Brazil,Losartan,Pain,Rash,No,Recovered,Consumer,69.1,2024-04-29
+100678,46,Female,Brazil,Metformin,Hypertension,Diarrhea,No,Not Recovered,Consumer,88.8,2025-06-03
+100679,44,Female,USA,Omeprazole,Diabetes,Rash,Yes,Recovering,Physician,88.6,2024-06-14
+100680,56,Male,Canada,Insulin,Pain,Headache,No,Recovered,Pharmacist,54.6,2025-05-20
+100681,22,Male,Japan,Losartan,Pain,Pruritus,Yes,Recovering,Nurse,59.2,2025-05-30
+100682,63,Male,Germany,Metformin,Fever,Fever,No,Recovered,Physician,96.0,2024-12-14
+100683,76,Male,USA,Levothyroxine,Hyperlipidemia,Nausea,No,Recovered,Physician,54.2,2025-03-24
+100684,44,Female,UK,Amoxicillin,Fever,Cough,No,Recovered,Physician,53.5,2024-04-30
+100685,60,Male,USA,Atorvastatin,Infection,Diarrhea,No,Recovered,Nurse,63.8,2025-01-07
+100686,39,Male,Germany,Ibuprofen,Fever,Diarrhea,No,Recovering,Pharmacist,86.4,2025-06-01
+100687,47,Male,Australia,Losartan,Infection,Cough,No,Recovered,Consumer,96.9,2025-03-07
+100688,36,Male,USA,Paracetamol,Hypertension,Fatigue,No,Not Recovered,Nurse,48.4,2025-03-29
+100689,37,Male,Germany,Losartan,Infection,Fever,No,Recovering,Consumer,95.0,2024-02-07
+100690,53,Male,Australia,Omeprazole,Fever,Dizziness,No,Recovering,Nurse,83.4,2024-01-09
+100691,43,Female,USA,Aspirin,Hyperlipidemia,Fatigue,No,Recovering,Pharmacist,73.6,2025-02-18
+100692,45,Male,Germany,Insulin,Hypertension,Rash,Yes,Not Recovered,Consumer,58.3,2024-10-17
+100693,72,Male,India,Ibuprofen,Hypertension,Fever,No,Recovered,Physician,69.7,2024-11-07
+100694,76,Female,Canada,Levothyroxine,Hyperlipidemia,Fever,No,Recovered,Consumer,60.6,2024-01-06
+100695,66,Male,USA,Ibuprofen,Hyperlipidemia,Pruritus,Yes,Not Recovered,Nurse,50.4,2024-05-23
+100696,70,Male,USA,Aspirin,Infection,Rash,No,Recovered,Consumer,82.2,2025-03-11
+100697,89,Female,Germany,Levothyroxine,Infection,Diarrhea,No,Recovering,Nurse,85.2,2025-02-16
+100698,38,Male,UK,Omeprazole,Fever,Cough,Yes,Recovering,Physician,83.2,2025-03-02
+100699,78,Male,UK,Insulin,Hypertension,Nausea,No,Recovered,Physician,65.3,2025-04-11
+100700,23,Male,USA,Ibuprofen,Hypertension,Fatigue,No,Recovered,Pharmacist,52.8,2024-10-23
+100701,24,Female,Germany,Atorvastatin,Diabetes,Cough,Yes,Recovered,Physician,92.9,2025-03-07
+100702,79,Female,Brazil,Ibuprofen,Infection,Cough,No,Not Recovered,Pharmacist,86.9,2025-03-03
+100703,76,Female,Brazil,Metformin,Fever,Fatigue,Yes,Recovering,Nurse,66.3,2025-05-31
+100704,61,Male,Brazil,Amoxicillin,Fever,Nausea,No,Recovering,Consumer,75.9,2025-02-08
+100705,89,Male,Canada,Levothyroxine,Hyperlipidemia,Pruritus,No,Hospitalized,Pharmacist,86.3,2024-05-06
+100706,20,Male,UK,Aspirin,Hypertension,Dizziness,Yes,Recovering,Nurse,49.7,2025-05-29
+100707,69,Male,Brazil,Aspirin,Hypertension,Diarrhea,Yes,Recovered,Consumer,66.0,2024-11-24
+100708,32,Male,UK,Amoxicillin,Diabetes,Rash,No,Recovered,Consumer,97.4,2024-04-03
+100709,25,Female,UK,Aspirin,Fever,Headache,No,Recovered,Pharmacist,67.7,2024-06-22
+100710,51,Female,USA,Aspirin,Diabetes,Dizziness,No,Recovering,Nurse,73.0,2024-11-27
+100711,67,Male,Germany,Aspirin,Hypertension,Cough,No,Recovered,Physician,67.4,2025-05-31
+100712,20,Female,USA,Atorvastatin,Hyperlipidemia,Rash,No,Recovered,Physician,91.5,2024-08-27
+100713,44,Male,Japan,Insulin,Diabetes,Dizziness,No,Recovered,Nurse,47.3,2025-05-27
+100714,55,Male,India,Aspirin,Infection,Vomiting,No,Not Recovered,Nurse,100.0,2025-04-20
+100715,83,Female,India,Metformin,Fever,Fever,No,Recovered,Nurse,83.4,2024-08-05
+100716,89,Female,Australia,Atorvastatin,Hyperlipidemia,Fever,No,Recovered,Consumer,79.9,2024-05-23
+100717,52,Male,Japan,Ibuprofen,Diabetes,Cough,No,Recovered,Pharmacist,80.6,2025-04-08
+100718,78,Male,India,Metformin,Infection,Fever,No,Recovering,Nurse,74.6,2024-01-03
+100719,86,Male,Brazil,Paracetamol,Hypertension,Diarrhea,No,Recovered,Pharmacist,91.2,2024-03-20
+100720,33,Female,Japan,Atorvastatin,Infection,Headache,Yes,Recovered,Consumer,82.4,2024-01-09
+100721,42,Male,Germany,Atorvastatin,Diabetes,Cough,No,Recovered,Nurse,94.7,2025-01-01
+100722,18,Male,Australia,Paracetamol,Hypertension,Pruritus,No,Recovered,Pharmacist,81.3,2024-08-02
+100723,26,Male,USA,Metformin,Hypertension,Pruritus,No,Not Recovered,Consumer,55.6,2024-06-28
+100724,86,Female,Brazil,Aspirin,Infection,Headache,No,Recovered,Nurse,60.1,2024-01-24
+100725,77,Female,Japan,Insulin,Pain,Dizziness,Yes,Hospitalized,Nurse,62.4,2025-06-14
+100726,42,Female,USA,Levothyroxine,Pain,Dizziness,No,Recovered,Physician,95.4,2025-02-05
+100727,39,Female,Germany,Paracetamol,Fever,Nausea,Yes,Recovered,Physician,77.6,2024-07-20
+100728,50,Male,USA,Omeprazole,Diabetes,Fatigue,No,Not Recovered,Pharmacist,96.9,2024-12-08
+100729,30,Female,USA,Paracetamol,Pain,Headache,No,Not Recovered,Physician,88.0,2025-03-25
+100730,74,Male,Germany,Levothyroxine,Fever,Diarrhea,Yes,Recovering,Physician,61.2,2024-03-04
+100731,69,Male,Australia,Atorvastatin,Hyperlipidemia,Pruritus,Yes,Recovered,Nurse,93.4,2025-01-25
+100732,61,Male,Brazil,Insulin,Hypertension,Pruritus,Yes,Recovered,Physician,77.6,2024-04-13
+100733,34,Female,Japan,Losartan,Infection,Pruritus,No,Recovered,Physician,48.3,2024-07-17
+100734,73,Female,Germany,Levothyroxine,Hyperlipidemia,Rash,Yes,Recovered,Consumer,61.0,2024-11-15
+100735,84,Male,India,Atorvastatin,Hyperlipidemia,Fever,No,Recovered,Pharmacist,98.7,2024-01-09
+100736,26,Female,Canada,Omeprazole,Fever,Cough,No,Recovered,Consumer,78.9,2024-07-25
+100737,60,Male,USA,Omeprazole,Pain,Cough,Yes,Recovered,Pharmacist,83.1,2025-03-04
+100738,45,Male,Brazil,Ibuprofen,Fever,Diarrhea,Yes,Recovered,Physician,65.0,2025-04-22
+100739,63,Male,USA,Metformin,Hypertension,Cough,Yes,Recovering,Consumer,47.4,2024-03-16
+100740,43,Male,Germany,Metformin,Diabetes,Vomiting,No,Recovered,Pharmacist,54.8,2024-01-31
+100741,40,Female,USA,Aspirin,Fever,Rash,No,Not Recovered,Physician,63.6,2024-01-23
+100742,57,Female,Canada,Ibuprofen,Hypertension,Rash,No,Hospitalized,Nurse,93.3,2024-08-03
+100743,33,Male,UK,Atorvastatin,Diabetes,Fever,No,Recovered,Nurse,98.7,2024-03-07
+100744,23,Male,Germany,Metformin,Hypertension,Dizziness,Yes,Not Recovered,Pharmacist,91.8,2024-09-07
+100745,44,Male,Brazil,Levothyroxine,Pain,Rash,No,Not Recovered,Consumer,72.4,2025-05-15
+100746,40,Female,Japan,Insulin,Fever,Cough,No,Recovered,Consumer,77.0,2025-04-20
+100747,44,Male,Canada,Omeprazole,Diabetes,Diarrhea,Yes,Recovered,Nurse,76.4,2024-02-07
+100748,50,Male,UK,Paracetamol,Hypertension,Cough,No,Recovered,Physician,70.6,2025-01-18
+100749,72,Female,Brazil,Losartan,Infection,Fatigue,No,Recovered,Nurse,46.4,2024-12-10
+100750,47,Female,USA,Ibuprofen,Pain,Vomiting,No,Recovered,Physician,88.2,2025-03-28
+100751,30,Male,USA,Ibuprofen,Pain,Fever,Yes,Recovered,Consumer,58.8,2024-08-21
+100752,42,Male,Germany,Aspirin,Hypertension,Vomiting,No,Not Recovered,Nurse,97.0,2024-10-08
+100753,78,Male,Australia,Atorvastatin,Diabetes,Dizziness,No,Recovered,Nurse,84.7,2024-01-13
+100754,61,Male,Japan,Atorvastatin,Infection,Diarrhea,Yes,Recovered,Physician,65.6,2025-04-17
+100755,57,Male,Brazil,Ibuprofen,Hypertension,Dizziness,No,Recovering,Nurse,87.0,2024-05-11
+100756,59,Male,India,Metformin,Diabetes,Fatigue,No,Not Recovered,Nurse,98.9,2024-11-02
+100757,68,Male,Australia,Atorvastatin,Infection,Nausea,No,Hospitalized,Consumer,50.1,2024-07-28
+100758,88,Male,India,Levothyroxine,Infection,Headache,Yes,Recovered,Nurse,60.6,2024-04-16
+100759,55,Male,Brazil,Aspirin,Hypertension,Fever,Yes,Recovered,Nurse,66.5,2024-08-26
+100760,34,Female,Brazil,Paracetamol,Infection,Dizziness,Yes,Recovered,Nurse,90.0,2024-04-23
+100761,38,Female,Canada,Insulin,Fever,Cough,No,Recovered,Pharmacist,69.5,2025-05-01
+100762,49,Female,Brazil,Omeprazole,Infection,Pruritus,Yes,Recovered,Nurse,64.1,2025-02-12
+100763,68,Male,Australia,Atorvastatin,Diabetes,Pruritus,No,Recovered,Pharmacist,83.4,2024-10-31
+100764,68,Male,Canada,Metformin,Hypertension,Fever,No,Hospitalized,Pharmacist,95.0,2024-04-07
+100765,88,Male,Japan,Paracetamol,Pain,Fever,No,Recovered,Nurse,54.1,2025-02-25
+100766,82,Male,Brazil,Aspirin,Pain,Cough,No,Recovering,Pharmacist,66.8,2024-07-31
+100767,50,Male,UK,Ibuprofen,Fever,Cough,No,Recovered,Pharmacist,84.2,2024-01-11
+100768,35,Female,Germany,Metformin,Diabetes,Headache,No,Recovered,Physician,74.4,2025-03-24
+100769,39,Male,India,Amoxicillin,Diabetes,Cough,No,Recovered,Physician,94.1,2025-02-04
+100770,74,Male,USA,Losartan,Fever,Vomiting,No,Recovering,Physician,87.5,2024-08-09
+100771,49,Female,Canada,Atorvastatin,Pain,Headache,No,Death,Consumer,90.1,2024-07-25
+100772,46,Male,UK,Metformin,Pain,Diarrhea,No,Not Recovered,Consumer,75.9,2024-03-05
+100773,44,Female,Australia,Paracetamol,Diabetes,Dizziness,Yes,Recovered,Physician,67.1,2024-07-13
+100774,19,Female,Canada,Omeprazole,Diabetes,Nausea,No,Recovered,Consumer,47.4,2024-11-19
+100775,70,Female,Brazil,Paracetamol,Fever,Fever,No,Hospitalized,Pharmacist,58.9,2024-08-11
+100776,59,Female,UK,Ibuprofen,Diabetes,Fatigue,No,Recovering,Physician,63.4,2024-04-07
+100777,66,Male,India,Atorvastatin,Pain,Pruritus,No,Recovered,Pharmacist,85.6,2025-04-04
+100778,28,Male,UK,Ibuprofen,Infection,Vomiting,Yes,Recovered,Physician,58.1,2024-09-06
+100779,60,Male,Germany,Ibuprofen,Fever,Headache,No,Hospitalized,Consumer,86.3,2025-03-30
+100780,60,Female,Canada,Atorvastatin,Hyperlipidemia,Headache,No,Recovering,Pharmacist,89.1,2024-08-22
+100781,66,Female,UK,Omeprazole,Fever,Headache,Yes,Recovered,Pharmacist,47.9,2024-08-15
+100782,44,Male,USA,Metformin,Hyperlipidemia,Fever,No,Hospitalized,Pharmacist,72.9,2024-05-24
+100783,77,Female,UK,Atorvastatin,Diabetes,Diarrhea,Yes,Recovered,Consumer,76.7,2025-03-12
+100784,52,Female,USA,Ibuprofen,Infection,Diarrhea,Yes,Recovered,Nurse,86.8,2024-07-25
+100785,20,Female,Australia,Paracetamol,Hypertension,Pruritus,No,Recovering,Pharmacist,59.2,2025-05-08
+100786,57,Female,Germany,Losartan,Hyperlipidemia,Pruritus,No,Recovered,Nurse,55.8,2025-04-19
+100787,18,Male,Japan,Omeprazole,Infection,Diarrhea,No,Hospitalized,Consumer,66.1,2024-07-13
+100788,27,Female,India,Paracetamol,Infection,Pruritus,Yes,Not Recovered,Consumer,87.4,2024-11-11
+100789,83,Female,Japan,Aspirin,Fever,Diarrhea,No,Recovering,Pharmacist,71.3,2024-12-22
+100790,21,Male,Germany,Levothyroxine,Infection,Rash,No,Recovering,Pharmacist,45.7,2025-01-05
+100791,67,Female,USA,Insulin,Diabetes,Diarrhea,Yes,Recovered,Consumer,72.5,2024-04-04
+100792,57,Female,USA,Paracetamol,Fever,Pruritus,No,Recovered,Pharmacist,59.8,2025-01-26
+100793,68,Female,India,Metformin,Infection,Headache,Yes,Not Recovered,Nurse,73.9,2024-08-02
+100794,73,Male,UK,Ibuprofen,Diabetes,Rash,Yes,Recovered,Physician,69.8,2024-10-22
+100795,41,Male,India,Metformin,Diabetes,Vomiting,No,Not Recovered,Nurse,79.5,2024-08-05
+100796,39,Male,Germany,Paracetamol,Infection,Nausea,No,Recovered,Pharmacist,71.3,2024-04-21
+100797,19,Male,Germany,Aspirin,Fever,Pruritus,No,Recovered,Pharmacist,73.7,2024-04-13
+100798,66,Female,Brazil,Omeprazole,Hypertension,Pruritus,No,Recovered,Consumer,100.0,2024-01-08
+100799,64,Female,Australia,Levothyroxine,Pain,Fatigue,No,Not Recovered,Physician,70.1,2024-09-02
+100800,35,Male,USA,Insulin,Hypertension,Dizziness,No,Recovering,Nurse,73.3,2025-02-15
+100801,18,Female,India,Ibuprofen,Pain,Fatigue,No,Recovered,Nurse,67.0,2024-07-11
+100802,62,Female,Brazil,Paracetamol,Fever,Diarrhea,No,Recovered,Pharmacist,92.8,2024-03-24
+100803,22,Male,Brazil,Paracetamol,Hypertension,Fever,No,Recovered,Nurse,97.5,2025-05-31
+100804,87,Male,Canada,Atorvastatin,Diabetes,Nausea,Yes,Death,Physician,53.8,2025-05-08
+100805,67,Female,Canada,Amoxicillin,Fever,Cough,No,Recovering,Pharmacist,95.8,2024-11-30
+100806,29,Female,Canada,Levothyroxine,Hyperlipidemia,Nausea,No,Recovered,Nurse,81.0,2025-05-18
+100807,47,Male,Germany,Paracetamol,Hypertension,Nausea,Yes,Recovered,Pharmacist,86.0,2025-03-23
+100808,65,Male,Japan,Losartan,Hyperlipidemia,Headache,No,Recovering,Pharmacist,91.6,2024-04-28
+100809,58,Female,UK,Insulin,Fever,Pruritus,No,Recovered,Physician,74.6,2025-03-09
+100810,58,Male,Germany,Atorvastatin,Infection,Cough,Yes,Recovered,Physician,77.9,2025-04-16
+100811,82,Male,Germany,Levothyroxine,Infection,Dizziness,No,Recovering,Nurse,48.2,2024-11-12
+100812,37,Male,Canada,Aspirin,Diabetes,Cough,No,Recovered,Pharmacist,99.5,2024-12-07
+100813,61,Female,Brazil,Ibuprofen,Infection,Diarrhea,Yes,Recovering,Consumer,83.3,2025-02-05
+100814,88,Female,USA,Metformin,Hypertension,Pruritus,No,Recovered,Consumer,70.2,2024-07-18
+100815,35,Female,Brazil,Amoxicillin,Diabetes,Dizziness,Yes,Recovering,Physician,64.9,2024-06-16
+100816,36,Female,Australia,Metformin,Pain,Nausea,No,Recovered,Physician,51.5,2024-04-14
+100817,61,Female,UK,Losartan,Diabetes,Headache,Yes,Recovered,Consumer,82.8,2025-06-11
+100818,66,Male,Brazil,Losartan,Hypertension,Cough,No,Recovered,Physician,51.7,2024-06-25
+100819,46,Male,Brazil,Amoxicillin,Fever,Nausea,No,Recovered,Nurse,100.0,2025-06-05
+100820,56,Male,USA,Ibuprofen,Pain,Fever,Yes,Not Recovered,Physician,66.7,2025-03-20
+100821,26,Male,Canada,Paracetamol,Diabetes,Pruritus,No,Recovered,Nurse,89.0,2025-05-15
+100822,23,Male,Canada,Metformin,Pain,Fever,No,Not Recovered,Physician,98.9,2024-05-05
+100823,56,Female,UK,Losartan,Fever,Headache,Yes,Recovered,Consumer,81.3,2025-06-02
+100824,35,Female,Japan,Insulin,Hypertension,Pruritus,No,Recovered,Physician,81.4,2025-03-31
+100825,48,Male,Canada,Metformin,Hypertension,Dizziness,No,Recovering,Pharmacist,77.5,2024-02-15
+100826,34,Female,USA,Insulin,Hypertension,Vomiting,No,Hospitalized,Nurse,70.1,2024-10-11
+100827,72,Male,Canada,Paracetamol,Fever,Vomiting,No,Recovering,Pharmacist,84.3,2024-09-17
+100828,38,Female,UK,Ibuprofen,Infection,Diarrhea,Yes,Recovering,Physician,59.9,2025-06-07
+100829,88,Female,USA,Ibuprofen,Fever,Nausea,No,Recovered,Consumer,53.0,2024-04-22
+100830,53,Male,USA,Losartan,Diabetes,Diarrhea,No,Not Recovered,Physician,54.7,2024-08-19
+100831,80,Male,Japan,Levothyroxine,Hypertension,Fever,No,Recovered,Physician,54.4,2024-11-09
+100832,41,Female,Australia,Omeprazole,Hyperlipidemia,Rash,No,Recovering,Pharmacist,81.2,2025-02-02
+100833,66,Female,India,Ibuprofen,Fever,Dizziness,No,Recovered,Nurse,55.1,2024-05-26
+100834,77,Female,Germany,Losartan,Hyperlipidemia,Dizziness,No,Not Recovered,Consumer,67.4,2024-12-28
+100835,29,Male,USA,Atorvastatin,Pain,Rash,No,Recovered,Consumer,75.5,2024-11-16
+100836,19,Female,UK,Omeprazole,Infection,Fever,No,Recovering,Physician,67.3,2025-05-19
+100837,18,Female,Japan,Atorvastatin,Fever,Fever,No,Recovered,Nurse,98.1,2024-07-13
+100838,46,Male,USA,Ibuprofen,Diabetes,Fever,No,Recovered,Nurse,65.9,2025-06-20
+100839,32,Female,Canada,Insulin,Pain,Vomiting,No,Recovered,Pharmacist,45.1,2025-01-17
+100840,45,Female,India,Omeprazole,Hyperlipidemia,Cough,Yes,Recovered,Nurse,63.1,2025-02-07
+100841,31,Male,Japan,Metformin,Infection,Fatigue,Yes,Recovered,Pharmacist,49.7,2024-12-28
+100842,37,Female,USA,Omeprazole,Pain,Rash,No,Recovered,Nurse,66.7,2025-06-10
+100843,64,Female,UK,Insulin,Hypertension,Nausea,No,Recovering,Nurse,53.9,2024-11-02
+100844,73,Male,Japan,Atorvastatin,Pain,Dizziness,No,Recovered,Nurse,85.9,2024-12-28
+100845,38,Male,Brazil,Amoxicillin,Pain,Diarrhea,No,Recovered,Pharmacist,62.9,2024-02-02
+100846,82,Female,UK,Paracetamol,Pain,Headache,Yes,Recovered,Physician,87.2,2025-02-13
+100847,24,Female,Australia,Levothyroxine,Fever,Headache,No,Recovered,Nurse,49.5,2024-08-30
+100848,49,Male,UK,Atorvastatin,Hypertension,Nausea,No,Death,Pharmacist,81.6,2025-03-15
+100849,43,Female,USA,Insulin,Hyperlipidemia,Rash,Yes,Not Recovered,Pharmacist,57.6,2025-03-15
+100850,69,Male,Germany,Atorvastatin,Diabetes,Diarrhea,Yes,Recovered,Physician,65.9,2024-05-15
+100851,57,Male,Canada,Ibuprofen,Infection,Cough,Yes,Recovered,Physician,61.7,2025-06-21
+100852,64,Female,Japan,Losartan,Diabetes,Fatigue,No,Recovered,Physician,47.9,2024-10-02
+100853,45,Female,Brazil,Amoxicillin,Hyperlipidemia,Nausea,No,Recovered,Nurse,65.0,2024-11-25
+100854,32,Male,India,Insulin,Diabetes,Fatigue,No,Not Recovered,Consumer,58.1,2024-11-07
+100855,44,Female,USA,Paracetamol,Diabetes,Pruritus,Yes,Recovering,Pharmacist,55.6,2024-10-09
+100856,30,Male,Japan,Amoxicillin,Fever,Cough,No,Recovered,Pharmacist,47.4,2025-04-01
+100857,71,Female,Japan,Ibuprofen,Infection,Nausea,No,Recovered,Nurse,73.8,2024-07-15
+100858,20,Male,Germany,Metformin,Hypertension,Headache,No,Recovered,Pharmacist,85.7,2025-05-30
+100859,81,Male,UK,Omeprazole,Hyperlipidemia,Diarrhea,No,Recovered,Consumer,56.4,2025-02-11
+100860,38,Male,India,Insulin,Infection,Fever,No,Recovered,Consumer,91.9,2024-01-04
+100861,52,Male,UK,Atorvastatin,Pain,Fever,Yes,Recovered,Pharmacist,96.8,2024-10-30
+100862,35,Female,India,Atorvastatin,Diabetes,Fever,Yes,Recovering,Consumer,62.9,2024-10-11
+100863,35,Female,Germany,Ibuprofen,Pain,Headache,No,Recovered,Consumer,54.7,2024-09-27
+100864,86,Male,Australia,Amoxicillin,Fever,Pruritus,No,Not Recovered,Pharmacist,62.8,2024-01-17
+100865,68,Male,Brazil,Atorvastatin,Fever,Diarrhea,No,Hospitalized,Physician,72.3,2024-07-27
+100866,41,Male,Canada,Levothyroxine,Infection,Rash,No,Recovered,Pharmacist,93.7,2025-04-15
+100867,42,Male,UK,Paracetamol,Infection,Dizziness,No,Recovering,Nurse,50.5,2025-02-07
+100868,35,Male,USA,Losartan,Infection,Headache,Yes,Recovered,Physician,52.3,2025-06-23
+100869,52,Male,India,Aspirin,Pain,Fever,No,Recovered,Physician,56.1,2024-03-26
+100870,90,Female,UK,Amoxicillin,Hypertension,Cough,Yes,Recovered,Consumer,79.5,2025-05-06
+100871,20,Male,USA,Insulin,Hypertension,Nausea,No,Not Recovered,Pharmacist,45.1,2024-05-06
+100872,21,Male,Australia,Losartan,Diabetes,Fatigue,No,Recovered,Nurse,82.8,2024-08-17
+100873,80,Male,USA,Atorvastatin,Pain,Vomiting,No,Recovering,Physician,64.8,2024-04-25
+100874,23,Male,UK,Losartan,Hyperlipidemia,Fatigue,No,Recovering,Pharmacist,94.1,2024-03-27
+100875,54,Female,USA,Amoxicillin,Infection,Fatigue,No,Not Recovered,Physician,88.4,2024-11-04
+100876,36,Female,UK,Losartan,Infection,Cough,No,Recovered,Nurse,97.8,2024-06-01
+100877,36,Male,Japan,Metformin,Diabetes,Diarrhea,No,Recovered,Nurse,83.1,2024-10-12
+100878,60,Male,Canada,Losartan,Infection,Fever,No,Recovered,Pharmacist,66.2,2025-02-27
+100879,85,Male,USA,Atorvastatin,Hypertension,Headache,Yes,Not Recovered,Consumer,75.7,2025-03-07
+100880,32,Male,Japan,Ibuprofen,Diabetes,Vomiting,No,Not Recovered,Nurse,58.3,2024-05-16
+100881,25,Male,USA,Metformin,Infection,Headache,No,Recovered,Physician,83.6,2024-08-17
+100882,79,Male,India,Metformin,Hypertension,Rash,Yes,Recovered,Nurse,53.2,2024-03-16
+100883,78,Male,Germany,Omeprazole,Infection,Fatigue,No,Recovering,Physician,60.8,2024-07-05
+100884,25,Male,UK,Insulin,Diabetes,Headache,No,Recovered,Nurse,75.5,2024-06-08
+100885,82,Female,Canada,Losartan,Diabetes,Vomiting,No,Recovered,Pharmacist,85.9,2024-09-21
+100886,25,Male,Australia,Metformin,Fever,Fever,No,Recovered,Nurse,71.3,2025-02-14
+100887,66,Male,India,Ibuprofen,Fever,Diarrhea,Yes,Recovered,Physician,64.9,2025-02-18
+100888,21,Male,Germany,Metformin,Hyperlipidemia,Nausea,Yes,Recovering,Consumer,55.3,2024-12-09
+100889,22,Male,Germany,Paracetamol,Hyperlipidemia,Pruritus,Yes,Death,Nurse,47.5,2024-07-25
+100890,29,Female,India,Ibuprofen,Hypertension,Diarrhea,No,Recovered,Nurse,84.9,2024-11-18
+100891,30,Female,Australia,Insulin,Pain,Fever,No,Recovered,Nurse,71.2,2024-05-12
+100892,55,Male,UK,Omeprazole,Pain,Nausea,No,Recovered,Pharmacist,89.4,2024-02-08
+100893,38,Female,Brazil,Metformin,Hypertension,Vomiting,No,Not Recovered,Nurse,47.2,2024-05-24
+100894,48,Male,USA,Metformin,Hyperlipidemia,Cough,Yes,Recovered,Consumer,75.1,2025-01-31
+100895,81,Male,Brazil,Ibuprofen,Diabetes,Vomiting,Yes,Recovered,Consumer,64.4,2024-03-30
+100896,40,Female,Germany,Omeprazole,Hypertension,Cough,No,Recovered,Physician,98.4,2024-03-13
+100897,23,Female,Germany,Losartan,Infection,Pruritus,No,Recovered,Consumer,73.2,2025-05-14
+100898,65,Male,Australia,Insulin,Infection,Vomiting,No,Death,Physician,79.1,2024-11-17
+100899,49,Male,UK,Paracetamol,Hypertension,Diarrhea,Yes,Recovered,Physician,57.3,2024-02-28
+100900,29,Female,Brazil,Omeprazole,Fever,Fever,No,Recovered,Physician,54.9,2025-04-18
+100901,68,Female,Canada,Losartan,Hypertension,Nausea,No,Death,Nurse,56.7,2024-04-20
+100902,32,Female,Brazil,Aspirin,Hyperlipidemia,Rash,No,Recovered,Pharmacist,62.6,2025-05-02
+100903,66,Male,Japan,Losartan,Infection,Dizziness,Yes,Not Recovered,Nurse,59.8,2024-02-02
+100904,28,Male,USA,Amoxicillin,Infection,Nausea,No,Recovering,Nurse,73.9,2024-06-29
+100905,41,Male,USA,Losartan,Hypertension,Vomiting,Yes,Recovered,Nurse,71.5,2024-09-22
+100906,73,Female,Australia,Aspirin,Hyperlipidemia,Pruritus,Yes,Recovering,Pharmacist,62.8,2024-06-13
+100907,19,Male,Brazil,Metformin,Infection,Fatigue,Yes,Hospitalized,Nurse,59.5,2024-11-20
+100908,75,Male,Brazil,Levothyroxine,Pain,Headache,Yes,Hospitalized,Nurse,83.3,2024-01-04
+100909,66,Male,Japan,Atorvastatin,Diabetes,Pruritus,No,Recovered,Consumer,45.9,2024-06-19
+100910,82,Male,Brazil,Omeprazole,Infection,Diarrhea,No,Not Recovered,Nurse,73.8,2024-11-10
+100911,32,Male,Brazil,Losartan,Hypertension,Rash,No,Recovered,Nurse,66.0,2024-12-09
+100912,54,Male,USA,Paracetamol,Pain,Headache,No,Recovered,Nurse,86.2,2025-03-23
+100913,74,Male,Germany,Losartan,Diabetes,Dizziness,No,Recovering,Physician,55.8,2024-04-12
+100914,33,Female,Brazil,Losartan,Fever,Diarrhea,Yes,Recovered,Pharmacist,72.9,2025-04-25
+100915,51,Female,Australia,Atorvastatin,Pain,Diarrhea,Yes,Recovered,Consumer,91.2,2024-10-01
+100916,58,Female,UK,Levothyroxine,Infection,Dizziness,No,Recovered,Nurse,90.6,2025-06-15
+100917,34,Female,UK,Losartan,Hypertension,Fever,Yes,Recovered,Pharmacist,72.7,2025-03-15
+100918,51,Male,Japan,Atorvastatin,Pain,Nausea,Yes,Recovered,Pharmacist,46.5,2025-02-05
+100919,66,Male,UK,Omeprazole,Fever,Fatigue,Yes,Recovering,Pharmacist,61.3,2024-03-21
+100920,66,Female,India,Amoxicillin,Pain,Rash,No,Recovering,Physician,51.1,2024-09-08
+100921,31,Male,Germany,Amoxicillin,Diabetes,Nausea,Yes,Not Recovered,Pharmacist,66.5,2024-05-05
+100922,20,Female,USA,Omeprazole,Fever,Nausea,Yes,Recovered,Consumer,79.8,2025-05-17
+100923,38,Male,Germany,Aspirin,Diabetes,Pruritus,No,Not Recovered,Physician,98.7,2025-04-06
+100924,79,Male,UK,Insulin,Fever,Vomiting,No,Recovered,Physician,74.5,2024-12-21
+100925,83,Male,Canada,Ibuprofen,Pain,Dizziness,Yes,Recovered,Physician,85.0,2025-06-14
+100926,52,Female,Brazil,Atorvastatin,Pain,Fatigue,No,Recovering,Nurse,86.0,2024-05-09
+100927,73,Female,Canada,Amoxicillin,Diabetes,Dizziness,No,Not Recovered,Consumer,97.9,2025-05-22
+100928,57,Male,Canada,Omeprazole,Infection,Cough,No,Recovering,Consumer,79.3,2024-04-15
+100929,72,Male,Japan,Ibuprofen,Fever,Nausea,No,Not Recovered,Consumer,77.3,2025-01-27
+100930,85,Female,Australia,Aspirin,Pain,Rash,No,Recovered,Pharmacist,64.7,2024-10-27
+100931,45,Female,Japan,Metformin,Hypertension,Nausea,Yes,Recovering,Consumer,56.8,2024-03-15
+100932,47,Male,Australia,Amoxicillin,Hyperlipidemia,Dizziness,No,Recovered,Consumer,84.4,2024-11-25
+100933,71,Female,Japan,Ibuprofen,Diabetes,Dizziness,Yes,Recovered,Physician,99.5,2024-03-17
+100934,33,Male,Brazil,Metformin,Hyperlipidemia,Fatigue,No,Recovered,Physician,60.7,2025-03-07
+100935,77,Female,UK,Losartan,Pain,Fever,No,Recovered,Physician,48.8,2024-01-05
+100936,71,Female,Germany,Ibuprofen,Hypertension,Diarrhea,Yes,Not Recovered,Nurse,78.7,2024-04-07
+100937,56,Female,Brazil,Paracetamol,Hypertension,Pruritus,Yes,Recovered,Physician,52.6,2025-02-06
+100938,73,Male,UK,Paracetamol,Diabetes,Fatigue,No,Recovered,Physician,96.4,2024-11-26
+100939,51,Male,USA,Aspirin,Hypertension,Nausea,No,Recovering,Nurse,59.8,2024-02-23
+100940,35,Female,USA,Metformin,Hypertension,Rash,No,Not Recovered,Nurse,80.0,2024-06-23
+100941,84,Male,Brazil,Omeprazole,Hypertension,Fatigue,No,Recovered,Physician,59.5,2024-05-05
+100942,28,Female,Canada,Atorvastatin,Fever,Nausea,Yes,Recovered,Pharmacist,45.7,2024-10-30
+100943,77,Female,Canada,Omeprazole,Pain,Fatigue,Yes,Recovering,Consumer,86.8,2024-08-09
+100944,76,Male,USA,Metformin,Diabetes,Fatigue,No,Recovered,Pharmacist,87.9,2024-11-15
+100945,26,Female,Australia,Metformin,Fever,Vomiting,No,Recovering,Physician,53.1,2024-07-11
+100946,32,Male,India,Omeprazole,Diabetes,Vomiting,Yes,Recovering,Nurse,64.4,2024-04-19
+100947,88,Male,Japan,Losartan,Diabetes,Rash,No,Recovered,Consumer,47.9,2024-05-01
+100948,65,Male,India,Losartan,Fever,Diarrhea,Yes,Recovered,Pharmacist,77.7,2024-10-06
+100949,84,Female,USA,Aspirin,Fever,Dizziness,No,Recovered,Physician,94.2,2025-05-20
+100950,48,Male,USA,Amoxicillin,Diabetes,Pruritus,No,Recovered,Nurse,50.6,2024-09-29
+100951,81,Male,UK,Atorvastatin,Hypertension,Vomiting,No,Recovered,Physician,50.2,2024-10-01
+100952,79,Female,Canada,Metformin,Hypertension,Nausea,Yes,Recovered,Nurse,52.8,2025-05-30
+100953,78,Female,Japan,Aspirin,Diabetes,Vomiting,No,Recovered,Physician,77.7,2024-01-14
+100954,18,Female,Canada,Omeprazole,Pain,Headache,No,Recovering,Consumer,90.9,2025-04-30
+100955,82,Male,UK,Paracetamol,Pain,Vomiting,No,Recovered,Nurse,85.4,2025-06-21
+100956,80,Female,Japan,Omeprazole,Pain,Fatigue,No,Recovered,Nurse,51.2,2024-09-20
+100957,20,Male,Australia,Atorvastatin,Fever,Rash,No,Recovered,Nurse,64.8,2025-06-15
+100958,42,Female,USA,Amoxicillin,Fever,Fever,No,Recovered,Pharmacist,59.6,2024-04-01
+100959,60,Female,Australia,Amoxicillin,Hypertension,Dizziness,Yes,Recovered,Consumer,90.9,2024-12-23
+100960,73,Female,Japan,Amoxicillin,Pain,Headache,No,Recovering,Nurse,82.5,2024-05-05
+100961,55,Male,Germany,Omeprazole,Hypertension,Nausea,No,Recovered,Physician,57.0,2025-06-19
+100962,24,Female,Germany,Aspirin,Infection,Fatigue,No,Recovered,Consumer,52.6,2024-05-06
+100963,82,Male,USA,Amoxicillin,Diabetes,Dizziness,No,Hospitalized,Consumer,57.0,2024-10-17
+100964,63,Male,Australia,Losartan,Infection,Nausea,No,Hospitalized,Consumer,54.5,2025-04-29
+100965,59,Male,Canada,Amoxicillin,Diabetes,Diarrhea,No,Recovered,Physician,61.4,2025-03-22
+100966,87,Male,Australia,Losartan,Pain,Rash,No,Recovering,Consumer,70.8,2025-04-17
+100967,77,Female,Australia,Omeprazole,Pain,Fever,Yes,Not Recovered,Physician,86.6,2025-03-13
+100968,49,Female,UK,Levothyroxine,Hyperlipidemia,Pruritus,No,Recovered,Nurse,51.9,2024-11-05
+100969,77,Female,India,Paracetamol,Pain,Vomiting,No,Recovering,Consumer,77.7,2024-01-07
+100970,90,Female,Japan,Aspirin,Pain,Pruritus,No,Recovering,Physician,83.6,2024-10-24
+100971,36,Female,UK,Atorvastatin,Fever,Rash,No,Recovered,Physician,89.3,2025-06-12
+100972,32,Male,India,Metformin,Hyperlipidemia,Nausea,No,Recovered,Physician,71.1,2024-07-24
+100973,74,Female,India,Paracetamol,Hypertension,Diarrhea,No,Recovered,Pharmacist,91.3,2025-06-01
+100974,74,Male,Australia,Metformin,Fever,Headache,Yes,Not Recovered,Pharmacist,54.4,2024-09-23
+100975,78,Female,Germany,Amoxicillin,Fever,Nausea,No,Recovered,Consumer,66.5,2024-07-24
+100976,77,Female,Australia,Metformin,Pain,Vomiting,No,Recovering,Physician,76.9,2024-04-19
+100977,74,Male,Japan,Metformin,Infection,Cough,No,Death,Consumer,72.5,2024-02-04
+100978,44,Female,Australia,Insulin,Pain,Rash,No,Recovered,Consumer,70.3,2025-05-30
+100979,53,Female,Australia,Paracetamol,Fever,Cough,No,Recovered,Pharmacist,76.7,2024-05-23
+100980,85,Female,UK,Ibuprofen,Hyperlipidemia,Pruritus,No,Recovering,Nurse,48.7,2025-06-03
+100981,38,Male,USA,Paracetamol,Infection,Cough,No,Recovered,Pharmacist,50.8,2024-01-31
+100982,67,Female,USA,Aspirin,Hyperlipidemia,Vomiting,Yes,Not Recovered,Physician,69.3,2024-06-27
+100983,21,Male,Japan,Paracetamol,Fever,Cough,No,Death,Pharmacist,55.8,2025-01-18
+100984,74,Female,Canada,Atorvastatin,Fever,Rash,No,Recovered,Pharmacist,49.7,2025-05-17
+100985,30,Male,India,Metformin,Pain,Fatigue,No,Recovering,Physician,63.7,2024-01-25
+100986,81,Male,Canada,Levothyroxine,Infection,Fever,No,Recovering,Pharmacist,89.1,2025-06-24
+100987,72,Female,USA,Levothyroxine,Pain,Rash,No,Recovered,Physician,72.4,2025-03-25
+100988,87,Female,India,Atorvastatin,Hypertension,Vomiting,No,Recovered,Pharmacist,98.2,2024-02-22
+100989,86,Male,Germany,Losartan,Hyperlipidemia,Headache,No,Not Recovered,Nurse,96.5,2024-03-17
+100990,21,Male,Japan,Losartan,Hypertension,Dizziness,No,Not Recovered,Pharmacist,56.2,2024-09-26
+100991,25,Male,Brazil,Paracetamol,Hyperlipidemia,Pruritus,No,Not Recovered,Physician,64.0,2024-12-03
+100992,71,Male,Brazil,Metformin,Hypertension,Headache,Yes,Recovered,Pharmacist,80.8,2024-03-13
+100993,79,Female,Canada,Aspirin,Pain,Headache,No,Not Recovered,Nurse,82.5,2025-03-17
+100994,88,Female,India,Losartan,Infection,Rash,No,Recovered,Pharmacist,51.4,2024-01-19
+100995,65,Female,Canada,Ibuprofen,Infection,Headache,Yes,Recovered,Physician,57.5,2024-04-30
+100996,19,Male,India,Paracetamol,Pain,Rash,No,Recovered,Consumer,64.2,2024-02-16
+100997,55,Male,Australia,Omeprazole,Fever,Nausea,No,Recovered,Pharmacist,72.2,2024-09-07
+100998,46,Female,Germany,Ibuprofen,Hyperlipidemia,Vomiting,No,Recovered,Consumer,62.5,2024-12-31
+100999,31,Male,Japan,Losartan,Fever,Pruritus,No,Recovered,Pharmacist,91.3,2025-05-30
+101000,47,Female,Canada,Paracetamol,Hypertension,Rash,Yes,Recovered,Nurse,80.7,2025-06-17
